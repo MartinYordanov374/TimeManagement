@@ -9,9 +9,8 @@ def setup():
     with open('./Data.csv') as dataSource:
         csv_reader = csv.reader(dataSource)
         for row in csv_reader:
-            print(row)
             for single_element in row:
-                timeSpentOnProjectsY.append(int(single_element))
+                timeSpentOnProjectsY.append(float(single_element))
 
     weekDays = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 
