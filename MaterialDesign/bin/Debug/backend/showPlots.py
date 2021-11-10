@@ -1,12 +1,18 @@
+from os import times
 from matplotlib import lines
 import matplotlib.pyplot as plt
 import numpy as np
-
+import csv
 
 def setup():
-    timeSpentOnProjectsY = np.array([1,0,63,8,5,6,7])
+    timeSpentOnProjectsY = []
+    with open('./Data.csv') as dataSource:
+        csv_reader = csv.reader(dataSource)
+        for row in csv_reader:
+            for single_element in row:
+                timeSpentOnProjectsY.append(float(single_element))
 
-    weekDays = np.array(["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"])
+    weekDays = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 
     colors = {
         'projectYellow' : '#f2d03b',
@@ -21,7 +27,7 @@ def setup():
 def plotData(weekDays, timeSpentOnProjects, colors):
 
     # get data from frontend if button for night mode is on or off
-    darkTheme = "off"
+    darkTheme = "on"
 
     if darkTheme == "on":
         plt.style.use('dark_background')
