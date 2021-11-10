@@ -17,6 +17,12 @@ namespace MaterialDesign
         public Form1()
         {
             InitializeComponent();
+            MaterialSkin.MaterialSkinManager manager = MaterialSkin.MaterialSkinManager.Instance;
+            manager.AddFormToManage(this);
+            manager.Theme = MaterialSkin.MaterialSkinManager.Themes.LIGHT;
+            manager.ColorScheme = new MaterialSkin.ColorScheme(MaterialSkin.Primary.Blue600, MaterialSkin.Primary.Green300, MaterialSkin.Primary.Blue300, MaterialSkin.Accent.Yellow700,MaterialSkin.TextShade.WHITE);
+
+
         }
 
         private void materialFlatButton1_Click(object sender, EventArgs e)
@@ -25,17 +31,24 @@ namespace MaterialDesign
             {
                 Process process = new Process();
                 process.StartInfo.FileName = "showPlots.py";
-                process.StartInfo.WorkingDirectory = @"C:\Users\chess\source\repos\MaterialDesign\MaterialDesign\bin\Debug\backend";
+                process.StartInfo.WorkingDirectory = @".\backend";
                 process.StartInfo.Arguments = "python";
                 process.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
                 process.Start();
 
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
                 Console.WriteLine("Invalid input!");
             }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            
+            Form1 fm = new Form1();
+            fm.Show();
         }
     }
 }
