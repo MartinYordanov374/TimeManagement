@@ -8,32 +8,33 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MaterialSkin.Controls;
 
-namespace ShowPlots
+namespace MaterialDesign
 {
-    public partial class Form1 : Form
+    public partial class Form1 : MaterialForm
     {
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void materialFlatButton1_Click(object sender, EventArgs e)
         {
             try
-            { 
+            {
                 Process process = new Process();
                 process.StartInfo.FileName = "showPlots.py";
-         
+                process.StartInfo.WorkingDirectory = @"C:\Users\chess\source\repos\MaterialDesign\MaterialDesign\bin\Debug\backend";
                 process.StartInfo.Arguments = "python";
                 process.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
                 process.Start();
-             
+
             }
             catch (Exception ex)
             {
 
-                Console.WriteLine("errpr");
+                Console.WriteLine("Invalid input!");
             }
         }
     }
