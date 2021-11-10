@@ -61,7 +61,7 @@ namespace MaterialDesign
             // 
             this.tabPage4.BackColor = System.Drawing.Color.White;
             this.tabPage4.Controls.Add(this.materialButton1);
-            this.tabPage4.ImageKey = "Home.ico";
+            this.tabPage4.ImageKey = "baseline_home_black_24dp.png";
             this.tabPage4.Location = new System.Drawing.Point(4, 39);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
@@ -71,7 +71,7 @@ namespace MaterialDesign
             // 
             // tabPage5
             // 
-            this.tabPage5.ImageKey = "stat.ico";
+            this.tabPage5.ImageKey = "baseline_leaderboard_black_24dp.png";
             this.tabPage5.Location = new System.Drawing.Point(4, 39);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
@@ -84,13 +84,13 @@ namespace MaterialDesign
             // 
             this.imageList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList2.ImageStream")));
             this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList2.Images.SetKeyName(0, "Home.ico");
-            this.imageList2.Images.SetKeyName(1, "Icons8-Windows-8-Very-Basic-Info.ico");
-            this.imageList2.Images.SetKeyName(2, "stat.ico");
+            this.imageList2.Images.SetKeyName(0, "baseline_home_black_24dp.png");
+            this.imageList2.Images.SetKeyName(1, "baseline_info_black_24dp.png");
+            this.imageList2.Images.SetKeyName(2, "baseline_leaderboard_black_24dp.png");
             // 
             // tabPage6
             // 
-            this.tabPage6.ImageKey = "Icons8-Windows-8-Very-Basic-Info.ico";
+            this.tabPage6.ImageKey = "baseline_info_black_24dp.png";
             this.tabPage6.Location = new System.Drawing.Point(4, 39);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Size = new System.Drawing.Size(1148, 464);
@@ -105,6 +105,7 @@ namespace MaterialDesign
             this.materialButton1.Depth = 0;
             this.materialButton1.HighEmphasis = true;
             this.materialButton1.Icon = null;
+            this.materialButton1.ImageList = this.imageList2;
             this.materialButton1.Location = new System.Drawing.Point(391, 172);
             this.materialButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
