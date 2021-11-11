@@ -10,3 +10,4 @@ C:\Users\chess\source\repos\MaterialDesign\MaterialDesign\obj\Debug\MaterialDesi
 C:\Users\chess\source\repos\MaterialDesign\MaterialDesign\obj\Debug\MaterialDesign.pdb
 C:\Users\chess\source\repos\MaterialDesign\MaterialDesign\obj\Debug\MaterialDesign.Form1.resources
 C:\Users\chess\source\repos\MaterialDesign\MaterialDesign\obj\Debug\MaterialDesign.csproj.AssemblyReference.cache
+C:\Users\chess\source\repos\MaterialDesign\MaterialDesign\bin\Debug\SplashScreen.dll
