@@ -50,7 +50,7 @@ def checkIfAllDependenciesAreInstalled():
         if matplotlib.__version__ and np.__version__:
             print('All dependencies are already installed')
     except:
-        os.popen("pip install numpy",'w')
-        os.popen("pip install matplotlib",'w')
+        os.system("pip install matplotlib")
+        os.system("pip install numpy")
 
 setup()
