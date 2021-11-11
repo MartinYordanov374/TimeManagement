@@ -1,13 +1,14 @@
-from os import times
-from matplotlib import lines
-import matplotlib
-import matplotlib.pyplot as plt
-import numpy as np
 import csv
 import os
+try:
+    import matplotlib
+    import matplotlib.pyplot as plt
+    import numpy as np
+except:
+    os.system("pip install matplotlib")
+    os.system("pip install numpy")
 
 def setup():
-    checkIfAllDependenciesAreInstalled()
 
     timeSpentOnProjectsY = []
     with open('./Data.csv') as dataSource:
@@ -44,13 +45,5 @@ def plotData(weekDays, timeSpentOnProjects, colors):
     plt.ylabel('Amount of Completed Projects')
     plt.show()
 
-
-def checkIfAllDependenciesAreInstalled():
-    try:
-        if matplotlib.__version__ and np.__version__:
-            print('All dependencies are already installed')
-    except:
-        os.system("pip install matplotlib")
-        os.system("pip install numpy")
 
 setup()
