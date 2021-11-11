@@ -11,6 +11,7 @@ def setup():
         for row in csv_reader:
             for single_element in row:
                 timeSpentOnProjectsY.append(float(single_element))
+                
 
     weekDays = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 
