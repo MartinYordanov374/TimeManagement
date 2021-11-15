@@ -1,5 +1,7 @@
 import csv
 import os
+from databaseScript import timeSpentOnProjectsY
+
 try:
     import matplotlib
     import matplotlib.pyplot as plt
@@ -9,13 +11,6 @@ except:
     os.system("pip install numpy")
 
 def setup():
-
-    timeSpentOnProjectsY = []
-    with open('./Data.csv') as dataSource:
-        csv_reader = csv.reader(dataSource)
-        for row in csv_reader:
-            for single_element in row:
-                timeSpentOnProjectsY.append(float(single_element))
                 
     weekDays = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 
