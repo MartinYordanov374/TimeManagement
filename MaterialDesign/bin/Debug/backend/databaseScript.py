@@ -1,4 +1,3 @@
-from os import times
 import sqlite3
 
 weekDays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
@@ -20,6 +19,7 @@ for i in range(0,7):
 selectString = "SELECT * FROM progress"
 targetDatabase.commit()
 result = targetDatabase.execute(selectString)
+
 timeSpentOnProjectsY = []
 for row in result:
     weekday = row[0]

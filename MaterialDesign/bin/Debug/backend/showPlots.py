@@ -1,4 +1,3 @@
-import csv
 import os
 from databaseScript import timeSpentOnProjectsY
 
