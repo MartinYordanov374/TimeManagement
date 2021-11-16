@@ -43,11 +43,11 @@ namespace MaterialDesign
             // 
             // materialTabControl2
             // 
+            resources.ApplyResources(this.materialTabControl2, "materialTabControl2");
             this.materialTabControl2.Controls.Add(this.tabPage4);
             this.materialTabControl2.Controls.Add(this.tabPage5);
             this.materialTabControl2.Controls.Add(this.tabPage6);
             this.materialTabControl2.Depth = 0;
-            resources.ApplyResources(this.materialTabControl2, "materialTabControl2");
             this.materialTabControl2.ImageList = this.imageList2;
             this.materialTabControl2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialTabControl2.Multiline = true;
@@ -56,9 +56,9 @@ namespace MaterialDesign
             // 
             // tabPage4
             // 
+            resources.ApplyResources(this.tabPage4, "tabPage4");
             this.tabPage4.BackColor = System.Drawing.Color.White;
             this.tabPage4.Controls.Add(this.materialButton1);
-            resources.ApplyResources(this.tabPage4, "tabPage4");
             this.tabPage4.Name = "tabPage4";
             // 
             // materialButton1

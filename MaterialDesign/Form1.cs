@@ -36,15 +36,7 @@ namespace MaterialDesign
 
         public Form1()
         {
-             Thread th = new Thread(new ThreadStart(Splashscreen));
-            th.Start();
-
-            string loading = string.Empty;
-            for (int i = 0; i < 100000; i++)
-            {
-                loading += i;
-            }
-            th.Abort();
+           
 
             InitializeComponent();
             materialSkinManager= MaterialSkin.MaterialSkinManager.Instance;
@@ -57,12 +49,7 @@ namespace MaterialDesign
 
             
         }
-        void Splashscreen()
-        {
-            SplashScreen.SplashForm fm1 = new SplashScreen.SplashForm();
-            fm1.AppName=("TASK MANAGER");
-            Application.Run(fm1);
-        }
+        
         private void materialButton1_Click(object sender, EventArgs e)
         {
             try
