@@ -1,3 +1,4 @@
+from os import times
 import sqlite3
 
 weekDays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
@@ -5,7 +6,7 @@ weekDays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", 
 targetDatabase = sqlite3.connect('progressDatabase.db')
 
 createTableString = '''CREATE TABLE IF NOT EXISTS progress (
-weekday text NOT NULL UNIQUE PRIMARY KEY, 
+weekday VARCHAR(255) NOT NULL UNIQUE PRIMARY KEY, 
 projectsCompleted integer NOT NULL)'''
 
 targetDatabase.execute(createTableString)
@@ -17,11 +18,14 @@ for i in range(0,7):
 
 
 selectString = "SELECT * FROM progress"
+updateQuery = '''UPDATE progress SET projectsCompleted = 4 WHERE weekday = "Thursday"'''
+targetDatabase.execute(updateQuery)
 targetDatabase.commit()
 result = targetDatabase.execute(selectString)
-
 timeSpentOnProjectsY = []
 for row in result:
     weekday = row[0]
     projectsCompleted = row[1]
+    print(weekday)
     timeSpentOnProjectsY.append(float(projectsCompleted))
+
