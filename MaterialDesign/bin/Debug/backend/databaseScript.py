@@ -18,8 +18,6 @@ for i in range(0,7):
 
 
 selectString = "SELECT * FROM progress"
-updateQuery = '''UPDATE progress SET projectsCompleted = 4 WHERE weekday = "Thursday"'''
-targetDatabase.execute(updateQuery)
 targetDatabase.commit()
 result = targetDatabase.execute(selectString)
 timeSpentOnProjectsY = []
