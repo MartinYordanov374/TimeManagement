@@ -70,7 +70,14 @@ namespace MaterialDesign
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+       
+
+        private void materialLabel2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void materialButton2_Click(object sender, EventArgs e)
         {
             SQLiteConnection conn = new SQLiteConnection(@"Data Source=.\backend\progressDatabase.db");
 
@@ -90,13 +97,15 @@ namespace MaterialDesign
 
 
             SQLiteCommand command = conn.CreateCommand();
-            command.CommandText = "UPDATE progress SET projectsCompleted = " + textBox1.Text + $" where weekday = '{textBox2.Text}'";
-            command.Parameters.AddWithValue("projectsCompleted", textBox1.Text);
+            command.CommandText = "UPDATE progress SET projectsCompleted = " + materialTextBox1.Text + $" where weekday = '{materialComboBox1.Text}'";
+            command.Parameters.AddWithValue("projectsCompleted", materialTextBox1.Text);
             command.CommandType = CommandType.Text;
             command.ExecuteNonQuery();
 
 
             conn.Close();
         }
+
     }
 }
+
