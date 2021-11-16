@@ -37,17 +37,20 @@ namespace MaterialDesign
             this.imageList2 = new System.Windows.Forms.ImageList(this.components);
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.materialTabControl2.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.SuspendLayout();
             // 
             // materialTabControl2
             // 
-            resources.ApplyResources(this.materialTabControl2, "materialTabControl2");
             this.materialTabControl2.Controls.Add(this.tabPage4);
             this.materialTabControl2.Controls.Add(this.tabPage5);
             this.materialTabControl2.Controls.Add(this.tabPage6);
             this.materialTabControl2.Depth = 0;
+            resources.ApplyResources(this.materialTabControl2, "materialTabControl2");
             this.materialTabControl2.ImageList = this.imageList2;
             this.materialTabControl2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialTabControl2.Multiline = true;
@@ -56,9 +59,12 @@ namespace MaterialDesign
             // 
             // tabPage4
             // 
-            resources.ApplyResources(this.tabPage4, "tabPage4");
             this.tabPage4.BackColor = System.Drawing.Color.White;
+            this.tabPage4.Controls.Add(this.textBox2);
+            this.tabPage4.Controls.Add(this.textBox1);
+            this.tabPage4.Controls.Add(this.button1);
             this.tabPage4.Controls.Add(this.materialButton1);
+            resources.ApplyResources(this.tabPage4, "tabPage4");
             this.tabPage4.Name = "tabPage4";
             // 
             // materialButton1
@@ -97,6 +103,23 @@ namespace MaterialDesign
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // textBox1
+            // 
+            resources.ApplyResources(this.textBox1, "textBox1");
+            this.textBox1.Name = "textBox1";
+            // 
+            // textBox2
+            // 
+            resources.ApplyResources(this.textBox2, "textBox2");
+            this.textBox2.Name = "textBox2";
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
@@ -120,6 +143,9 @@ namespace MaterialDesign
         private System.Windows.Forms.TabPage tabPage6;
         private System.Windows.Forms.ImageList imageList2;
         private MaterialSkin.Controls.MaterialButton materialButton1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
 

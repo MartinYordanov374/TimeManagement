@@ -12,6 +12,7 @@ using MaterialSkin.Controls;
 using System.Runtime.InteropServices;
 using System.Drawing.Drawing2D;
 using System.Threading;
+using System.Data.SQLite;
 
 namespace MaterialDesign
 {
@@ -67,6 +68,35 @@ namespace MaterialDesign
 
                 Console.WriteLine("Invalid input!");
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            SQLiteConnection conn = new SQLiteConnection(@"Data Source=.\backend\progressDatabase.db");
+
+            try
+            {
+                conn.Open();
+            }
+            catch (Exception)
+            {
+
+                Console.WriteLine("DB can not open");
+            }
+
+            SQLiteDataReader sQLiteDataReader;
+            SQLiteCommand sQLiteCommand = conn.CreateCommand();
+            sQLiteCommand.CommandText = "SELECT*FROM progress";
+
+
+            SQLiteCommand command = conn.CreateCommand();
+            command.CommandText = "UPDATE progress SET projectsCompleted = " + textBox1.Text + $" where weekday = '{textBox2.Text}'";
+            command.Parameters.AddWithValue("projectsCompleted", textBox1.Text);
+            command.CommandType = CommandType.Text;
+            command.ExecuteNonQuery();
+
+
+            conn.Close();
         }
     }
 }
