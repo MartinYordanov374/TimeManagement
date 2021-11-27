@@ -40,8 +40,8 @@ namespace MaterialDesign
             this.GraphicButton = new MaterialSkin.Controls.MaterialButton();
             this.imageList2 = new System.Windows.Forms.ImageList(this.components);
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.materialListBox1 = new MaterialSkin.Controls.MaterialListBox();
             this.materialTextBox2 = new MaterialSkin.Controls.MaterialTextBox();
             this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
             this.materialTabControl2.SuspendLayout();
@@ -145,27 +145,23 @@ namespace MaterialDesign
             // 
             this.tabPage5.Controls.Add(this.materialButton1);
             this.tabPage5.Controls.Add(this.materialTextBox2);
-            this.tabPage5.Controls.Add(this.materialListBox1);
+            this.tabPage5.Controls.Add(this.checkedListBox1);
             resources.ApplyResources(this.tabPage5, "tabPage5");
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.FormattingEnabled = true;
+            resources.ApplyResources(this.checkedListBox1, "checkedListBox1");
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
             // 
             // tabPage6
             // 
             resources.ApplyResources(this.tabPage6, "tabPage6");
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.UseVisualStyleBackColor = true;
-            // 
-            // materialListBox1
-            // 
-            this.materialListBox1.BackColor = System.Drawing.Color.White;
-            this.materialListBox1.BorderColor = System.Drawing.Color.LightGray;
-            this.materialListBox1.Depth = 0;
-            resources.ApplyResources(this.materialListBox1, "materialListBox1");
-            this.materialListBox1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialListBox1.Name = "materialListBox1";
-            this.materialListBox1.SelectedIndex = -1;
-            this.materialListBox1.SelectedItem = null;
             // 
             // materialTextBox2
             // 
@@ -191,6 +187,7 @@ namespace MaterialDesign
             this.materialButton1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton1.UseAccentColor = false;
             this.materialButton1.UseVisualStyleBackColor = true;
+            this.materialButton1.Click += new System.EventHandler(this.materialButton1_Click_1);
             // 
             // Form1
             // 
@@ -221,9 +218,9 @@ namespace MaterialDesign
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
         private MaterialSkin.Controls.MaterialButton DataButton;
         private MaterialSkin.Controls.MaterialSwitch materialSwitch1;
+        private System.Windows.Forms.CheckedListBox checkedListBox1;
         private MaterialSkin.Controls.MaterialButton materialButton1;
         private MaterialSkin.Controls.MaterialTextBox materialTextBox2;
-        private MaterialSkin.Controls.MaterialListBox materialListBox1;
     }
 }
 
