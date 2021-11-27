@@ -33,15 +33,14 @@ namespace MaterialDesign
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.materialTabControl2 = new MaterialSkin.Controls.MaterialTabControl();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.materialSwitch1 = new MaterialSkin.Controls.MaterialSwitch();
             this.DataButton = new MaterialSkin.Controls.MaterialButton();
-            this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.materialTextBox1 = new MaterialSkin.Controls.MaterialTextBox();
             this.GraphicButton = new MaterialSkin.Controls.MaterialButton();
             this.imageList2 = new System.Windows.Forms.ImageList(this.components);
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.materialComboBox1 = new MaterialSkin.Controls.MaterialComboBox();
             this.materialTabControl2.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.SuspendLayout();
@@ -62,14 +61,24 @@ namespace MaterialDesign
             // tabPage4
             // 
             this.tabPage4.BackColor = System.Drawing.Color.White;
-            this.tabPage4.Controls.Add(this.materialComboBox1);
+            this.tabPage4.Controls.Add(this.materialSwitch1);
             this.tabPage4.Controls.Add(this.DataButton);
-            this.tabPage4.Controls.Add(this.materialLabel2);
             this.tabPage4.Controls.Add(this.materialLabel1);
             this.tabPage4.Controls.Add(this.materialTextBox1);
             this.tabPage4.Controls.Add(this.GraphicButton);
             resources.ApplyResources(this.tabPage4, "tabPage4");
             this.tabPage4.Name = "tabPage4";
+            // 
+            // materialSwitch1
+            // 
+            resources.ApplyResources(this.materialSwitch1, "materialSwitch1");
+            this.materialSwitch1.Depth = 0;
+            this.materialSwitch1.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialSwitch1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialSwitch1.Name = "materialSwitch1";
+            this.materialSwitch1.Ripple = true;
+            this.materialSwitch1.UseVisualStyleBackColor = true;
+            this.materialSwitch1.CheckedChanged += new System.EventHandler(this.materialSwitch1_CheckedChanged);
             // 
             // DataButton
             // 
@@ -85,14 +94,6 @@ namespace MaterialDesign
             this.DataButton.UseAccentColor = false;
             this.DataButton.UseVisualStyleBackColor = true;
             this.DataButton.Click += new System.EventHandler(this.materialButton2_Click);
-            // 
-            // materialLabel2
-            // 
-            resources.ApplyResources(this.materialLabel2, "materialLabel2");
-            this.materialLabel2.Depth = 0;
-            this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Click += new System.EventHandler(this.materialLabel2_Click);
             // 
             // materialLabel1
             // 
@@ -148,30 +149,6 @@ namespace MaterialDesign
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
-            // materialComboBox1
-            // 
-            this.materialComboBox1.AutoResize = false;
-            this.materialComboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialComboBox1.Depth = 0;
-            this.materialComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
-            this.materialComboBox1.DropDownHeight = 174;
-            this.materialComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.materialComboBox1.DropDownWidth = 121;
-            resources.ApplyResources(this.materialComboBox1, "materialComboBox1");
-            this.materialComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialComboBox1.FormattingEnabled = true;
-            this.materialComboBox1.Items.AddRange(new object[] {
-            resources.GetString("materialComboBox1.Items"),
-            resources.GetString("materialComboBox1.Items1"),
-            resources.GetString("materialComboBox1.Items2"),
-            resources.GetString("materialComboBox1.Items3"),
-            resources.GetString("materialComboBox1.Items4"),
-            resources.GetString("materialComboBox1.Items5"),
-            resources.GetString("materialComboBox1.Items6")});
-            this.materialComboBox1.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialComboBox1.Name = "materialComboBox1";
-            this.materialComboBox1.StartIndex = 0;
-            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
@@ -196,10 +173,9 @@ namespace MaterialDesign
         private System.Windows.Forms.ImageList imageList2;
         private MaterialSkin.Controls.MaterialButton GraphicButton;
         private MaterialSkin.Controls.MaterialTextBox materialTextBox1;
-        private MaterialSkin.Controls.MaterialLabel materialLabel2;
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
         private MaterialSkin.Controls.MaterialButton DataButton;
-        private MaterialSkin.Controls.MaterialComboBox materialComboBox1;
+        private MaterialSkin.Controls.MaterialSwitch materialSwitch1;
     }
 }
 

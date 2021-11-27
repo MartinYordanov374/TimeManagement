@@ -35,3 +35,12 @@ C:\Users\chess\Music\Project\TimeManagement\MaterialDesign\obj\Debug\en-US\Mater
 C:\Users\chess\Music\Project\TimeManagement\MaterialDesign\obj\Debug\MaterialDesign.csproj.CopyComplete
 C:\Users\chess\Music\Project\TimeManagement\MaterialDesign\obj\Debug\MaterialDesign.exe
 C:\Users\chess\Music\Project\TimeManagement\MaterialDesign\obj\Debug\MaterialDesign.pdb
+C:\Users\chess\Music\Project\TimeManagement\MaterialDesign\bin\Debug\LiveCharts.dll
+C:\Users\chess\Music\Project\TimeManagement\MaterialDesign\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\chess\Music\Project\TimeManagement\MaterialDesign\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\chess\Music\Project\TimeManagement\MaterialDesign\bin\Debug\LiveCharts.pdb
+C:\Users\chess\Music\Project\TimeManagement\MaterialDesign\bin\Debug\LiveCharts.xml
+C:\Users\chess\Music\Project\TimeManagement\MaterialDesign\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\chess\Music\Project\TimeManagement\MaterialDesign\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\chess\Music\Project\TimeManagement\MaterialDesign\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\chess\Music\Project\TimeManagement\MaterialDesign\bin\Debug\LiveCharts.Wpf.xml
