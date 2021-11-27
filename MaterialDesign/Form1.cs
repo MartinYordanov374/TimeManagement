@@ -13,6 +13,7 @@ using System.Runtime.InteropServices;
 using System.Drawing.Drawing2D;
 using System.Threading;
 using System.Data.SQLite;
+using LiveCharts;
 
 namespace MaterialDesign
 {
@@ -43,7 +44,6 @@ namespace MaterialDesign
             materialSkinManager= MaterialSkin.MaterialSkinManager.Instance;
             materialSkinManager.EnforceBackcolorOnAllComponents = true;
             materialSkinManager.AddFormToManage(this);
-            materialSkinManager.Theme = MaterialSkin.MaterialSkinManager.Themes.DARK;
             materialSkinManager.ColorScheme = new MaterialSkin.ColorScheme(MaterialSkin.Primary.Blue600, MaterialSkin.Primary.Green300, MaterialSkin.Primary.Blue300, MaterialSkin.Accent.Yellow700,MaterialSkin.TextShade.WHITE);
 
             RePaint();
@@ -97,7 +97,7 @@ namespace MaterialDesign
 
 
             SQLiteCommand command = conn.CreateCommand();
-            command.CommandText = "UPDATE progress SET projectsCompleted = " + materialTextBox1.Text + $" where weekday = '{materialComboBox1.Text}'";
+            command.CommandText = "UPDATE progress SET projectsCompleted = " + materialTextBox1.Text + $" where weekday = '{DateTime.Now.DayOfWeek}'";
             command.Parameters.AddWithValue("projectsCompleted", materialTextBox1.Text);
             command.CommandType = CommandType.Text;
             command.ExecuteNonQuery();
@@ -106,6 +106,18 @@ namespace MaterialDesign
             conn.Close();
         }
 
-    }
-}
+        private void materialSwitch1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (materialSwitch1.Checked)
+            {
+                materialSkinManager.Theme = MaterialSkin.MaterialSkinManager.Themes.DARK;
+            }
+            else
+            {
+                materialSkinManager.Theme = MaterialSkin.MaterialSkinManager.Themes.LIGHT;
+            }
+        }
+
+        }
+ }
 
