@@ -22,6 +22,8 @@ updateQuery = '''UPDATE progress SET projectsCompleted = 4 WHERE weekday = "Thur
 targetDatabase.execute(updateQuery)
 targetDatabase.commit()
 result = targetDatabase.execute(selectString)
+
+
 timeSpentOnProjectsY = []
 for row in result:
     weekday = row[0]
