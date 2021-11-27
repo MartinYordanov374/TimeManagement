@@ -12,6 +12,8 @@ using MaterialSkin.Controls;
 using System.Runtime.InteropServices;
 using System.Drawing.Drawing2D;
 using System.Threading;
+using System.Data.SQLite;
+using LiveCharts;
 
 namespace MaterialDesign
 {
@@ -36,33 +38,19 @@ namespace MaterialDesign
 
         public Form1()
         {
-             Thread th = new Thread(new ThreadStart(Splashscreen));
-            th.Start();
-
-            string loading = string.Empty;
-            for (int i = 0; i < 100000; i++)
-            {
-                loading += i;
-            }
-            th.Abort();
+           
 
             InitializeComponent();
             materialSkinManager= MaterialSkin.MaterialSkinManager.Instance;
             materialSkinManager.EnforceBackcolorOnAllComponents = true;
             materialSkinManager.AddFormToManage(this);
-            materialSkinManager.Theme = MaterialSkin.MaterialSkinManager.Themes.DARK;
             materialSkinManager.ColorScheme = new MaterialSkin.ColorScheme(MaterialSkin.Primary.Blue600, MaterialSkin.Primary.Green300, MaterialSkin.Primary.Blue300, MaterialSkin.Accent.Yellow700,MaterialSkin.TextShade.WHITE);
 
             RePaint();
 
             
         }
-        void Splashscreen()
-        {
-            SplashScreen.SplashForm fm1 = new SplashScreen.SplashForm();
-            fm1.AppName=("TASK MANAGER");
-            Application.Run(fm1);
-        }
+        
         private void materialButton1_Click(object sender, EventArgs e)
         {
             try
@@ -81,5 +69,55 @@ namespace MaterialDesign
                 Console.WriteLine("Invalid input!");
             }
         }
-    }
-}
+
+       
+
+        private void materialLabel2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void materialButton2_Click(object sender, EventArgs e)
+        {
+            SQLiteConnection conn = new SQLiteConnection(@"Data Source=.\backend\progressDatabase.db");
+
+            try
+            {
+                conn.Open();
+            }
+            catch (Exception)
+            {
+
+                Console.WriteLine("DB can not open");
+            }
+
+            SQLiteDataReader sQLiteDataReader;
+            SQLiteCommand sQLiteCommand = conn.CreateCommand();
+            sQLiteCommand.CommandText = "SELECT*FROM progress";
+
+
+            SQLiteCommand command = conn.CreateCommand();
+            command.CommandText = "UPDATE progress SET projectsCompleted = " + materialTextBox1.Text + $" where weekday = '{DateTime.Now.DayOfWeek}'";
+            command.Parameters.AddWithValue("projectsCompleted", materialTextBox1.Text);
+            command.CommandType = CommandType.Text;
+            command.ExecuteNonQuery();
+
+
+            conn.Close();
+        }
+
+        private void materialSwitch1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (materialSwitch1.Checked)
+            {
+                materialSkinManager.Theme = MaterialSkin.MaterialSkinManager.Themes.DARK;
+            }
+            else
+            {
+                materialSkinManager.Theme = MaterialSkin.MaterialSkinManager.Themes.LIGHT;
+            }
+        }
+
+        }
+ }
+
