@@ -19,6 +19,8 @@ namespace MaterialDesign
 {
     public partial class Form1 : MaterialForm
     {
+        SQLiteConnection conn = new SQLiteConnection(@"Data Source=.\backend\progressDatabase.db");
+
         readonly MaterialSkin.MaterialSkinManager materialSkinManager;
         protected void RePaint()
         {
@@ -70,16 +72,9 @@ namespace MaterialDesign
             }
         }
 
-       
-
-        private void materialLabel2_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void materialButton2_Click(object sender, EventArgs e)
         {
-            SQLiteConnection conn = new SQLiteConnection(@"Data Source=.\backend\progressDatabase.db");
 
             try
             {
@@ -91,7 +86,6 @@ namespace MaterialDesign
                 Console.WriteLine("DB can not open");
             }
 
-            SQLiteDataReader sQLiteDataReader;
             SQLiteCommand sQLiteCommand = conn.CreateCommand();
             sQLiteCommand.CommandText = "SELECT*FROM progress";
 
@@ -118,6 +112,35 @@ namespace MaterialDesign
             }
         }
 
+        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            for (int i = 0; i < checkedListBox1.Items.Count; i++)
+            {
+                if (checkedListBox1.GetItemChecked(i)==true)
+                {
+                    checkedListBox1.Items.Remove(checkedListBox1.Items[i]);
+                }
+            }
         }
+
+        private void materialButton1_Click_1(object sender, EventArgs e)
+        {
+            conn.Open();
+            if (materialTextBox2.Text==string.Empty)
+            {
+                MessageBox.Show("Please, Enter a valid value!");
+            }
+            else
+            {
+                checkedListBox1.Items.Add(materialTextBox2.Text.Trim());
+                materialTextBox2.Text = string.Empty;
+            }
+
+            SQLiteCommand command = conn.CreateCommand();
+            command.CommandText = $"INSERT INTO allProjects VALUES('{materialTextBox2.Text}', 1)";
+            command.ExecuteNonQuery();
+            conn.Close();
+        }
+    }
  }
 
