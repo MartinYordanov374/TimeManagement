@@ -137,7 +137,8 @@ namespace MaterialDesign
             }
 
             SQLiteCommand command = conn.CreateCommand();
-            command.CommandText = $"INSERT INTO allProjects VALUES('{materialTextBox2.Text}', 1)";
+            command.CommandText = $"INSERT INTO allProjects VALUES('{materialTextBox2.Text}')";
+            command.CommandType = CommandType.Text;
             command.ExecuteNonQuery();
             conn.Close();
         }
