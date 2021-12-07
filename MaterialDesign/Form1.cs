@@ -141,8 +141,29 @@ namespace MaterialDesign
             }
             catch (Exception es)
             {
-                MessageBox.Show("ERROR "+es.Message);
+                Console.WriteLine();
             }
+        }
+        private void materialButton2_Click_1(object sender, EventArgs e)
+        {
+            conn.Open();
+
+            var cmd = new SQLiteCommand(conn);
+
+            cmd.CommandText = "SELECT * FROM allProjects";
+
+            checkedListBox1.Items.Clear();
+
+            var reader = cmd.ExecuteReader();
+
+            while (reader.Read())
+            {
+                checkedListBox1.Items.Add(reader.GetString(0));
+            }
+
+            reader.Close();
+
+            conn.Close();
         }
 
         private void materialButton1_Click_1(object sender, EventArgs e)
@@ -175,34 +196,15 @@ namespace MaterialDesign
         }
 
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            conn.Open();
+       
            
-            var cmd = new SQLiteCommand(conn);
-
-            cmd.CommandText = "SELECT * FROM allProjects";
-
-            checkedListBox1.Items.Clear();
-
-           var reader= cmd.ExecuteReader();
-          
-            while (reader.Read())
-            {
-                checkedListBox1.Items.Add(reader.GetString(0));
-            }
-
-            reader.Close();
-
-            conn.Close();
-        }
-
         private void tabPage4_Click(object sender, EventArgs e)
         {
 
         }
 
-      
+       
     }
- }
+}
+ 
 
