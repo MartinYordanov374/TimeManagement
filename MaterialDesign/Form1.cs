@@ -22,35 +22,37 @@ namespace MaterialDesign
         SQLiteConnection conn = new SQLiteConnection(@"Data Source=.\backend\progressDatabase.db");
 
         readonly MaterialSkin.MaterialSkinManager materialSkinManager;
-        protected void RePaint()
-        {
-            GraphicsPath graphicpath = new GraphicsPath();
-            graphicpath.StartFigure();
-            graphicpath.AddArc(0, 0, 25, 25, 180, 90);
-            graphicpath.AddLine(25, 0, this.Width - 25, 0);
-            graphicpath.AddArc(this.Width - 25, 0, 25, 25, 270, 90);
-            graphicpath.AddLine(this.Width, 25, this.Width, this.Height - 25);
-            graphicpath.AddArc(this.Width - 25, this.Height - 25, 25, 25, 0, 90);
-            graphicpath.AddLine(this.Width - 25, this.Height, 25, this.Height);
-            graphicpath.AddArc(0, this.Height - 25, 25, 25, 90, 90);
-            graphicpath.CloseFigure();
-            this.Region = new Region(graphicpath);
-}
-
-
+      
         public Form1()
         {
            
 
             InitializeComponent();
+
             materialSkinManager= MaterialSkin.MaterialSkinManager.Instance;
             materialSkinManager.EnforceBackcolorOnAllComponents = true;
             materialSkinManager.AddFormToManage(this);
-            materialSkinManager.ColorScheme = new MaterialSkin.ColorScheme(MaterialSkin.Primary.Blue600, MaterialSkin.Primary.Green300, MaterialSkin.Primary.Blue300, MaterialSkin.Accent.Yellow700,MaterialSkin.TextShade.WHITE);
+            materialSkinManager.ColorScheme = new MaterialSkin.ColorScheme(MaterialSkin.Primary.Green500, MaterialSkin.Primary.Green800, MaterialSkin.Primary.Green800, MaterialSkin.Accent.Teal700,MaterialSkin.TextShade.WHITE);
 
-            RePaint();
+          
+            try
+            {
+                Process process = new Process();
 
-            
+                process.StartInfo.FileName = "databaseScript.py";
+                process.StartInfo.WorkingDirectory = @".\backend";
+                process.StartInfo.Arguments = "python";
+
+                process.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
+
+                process.Start();
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Invalid input!");
+            }
+
+            materialLabel2.Text = DateTime.Now.ToLongDateString();
         }
         
         private void materialButton1_Click(object sender, EventArgs e)
@@ -58,10 +60,13 @@ namespace MaterialDesign
             try
             {
                 Process process = new Process();
+
                 process.StartInfo.FileName = "showPlots.py";
                 process.StartInfo.WorkingDirectory = @".\backend";
                 process.StartInfo.Arguments = "python";
+
                 process.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
+
                 process.Start();
 
             }
@@ -75,27 +80,29 @@ namespace MaterialDesign
 
         private void materialButton2_Click(object sender, EventArgs e)
         {
-
             try
             {
                 conn.Open();
             }
             catch (Exception)
             {
-
                 Console.WriteLine("DB can not open");
             }
 
             SQLiteCommand sQLiteCommand = conn.CreateCommand();
+
             sQLiteCommand.CommandText = "SELECT*FROM progress";
 
 
             SQLiteCommand command = conn.CreateCommand();
-            command.CommandText = "UPDATE progress SET projectsCompleted = " + materialTextBox1.Text + $" where weekday = '{DateTime.Now.DayOfWeek}'";
-            command.Parameters.AddWithValue("projectsCompleted", materialTextBox1.Text);
-            command.CommandType = CommandType.Text;
-            command.ExecuteNonQuery();
 
+            command.CommandText = "UPDATE progress SET projectsCompleted = " + materialTextBox1.Text + $" where weekday = '{DateTime.Now.DayOfWeek}'";
+
+            command.Parameters.AddWithValue("projectsCompleted", materialTextBox1.Text);
+
+            command.CommandType = CommandType.Text;
+
+            command.ExecuteNonQuery();
 
             conn.Close();
         }
@@ -114,34 +121,88 @@ namespace MaterialDesign
 
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            for (int i = 0; i < checkedListBox1.Items.Count; i++)
+            try
             {
-                if (checkedListBox1.GetItemChecked(i)==true)
-                {
-                    checkedListBox1.Items.Remove(checkedListBox1.Items[i]);
-                }
+                conn.Open();
+
+                SQLiteCommand sQLiteCommand = conn.CreateCommand();
+                
+                var index = checkedListBox1.SelectedIndex;
+                var name = checkedListBox1.Items[index].ToString();
+                var query= $"DELETE FROM allProjects WHERE projectName == '{name}'";
+
+                sQLiteCommand.CommandText = query;
+                sQLiteCommand.ExecuteNonQuery();
+
+                checkedListBox1.Items.RemoveAt(checkedListBox1.SelectedIndex);
+
+                conn.Close();
+
+            }
+            catch (Exception es)
+            {
+                MessageBox.Show("ERROR "+es.Message);
             }
         }
 
         private void materialButton1_Click_1(object sender, EventArgs e)
         {
-            conn.Open();
-            if (materialTextBox2.Text==string.Empty)
+            try
             {
-                MessageBox.Show("Please, Enter a valid value!");
-            }
-            else
-            {
-                checkedListBox1.Items.Add(materialTextBox2.Text.Trim());
-                materialTextBox2.Text = string.Empty;
+                conn.Open();
+
+                var cmd = new SQLiteCommand(conn);
+
+                if (materialTextBox2.Text != string.Empty)
+                {
+                    checkedListBox1.Items.Add(materialTextBox2.Text);
+
+                    cmd.CommandText = "INSERT INTO allProjects (projectName) VALUES(@materialTextBox2)";
+
+                    string name = materialTextBox2.Text;
+
+                    cmd.Parameters.AddWithValue("@materialTextBox2", name);
+
+                    cmd.ExecuteNonQuery();
+                    conn.Close();
+                }
             }
 
-            SQLiteCommand command = conn.CreateCommand();
-            command.CommandText = $"INSERT INTO allProjects VALUES('{materialTextBox2.Text}')";
-            command.CommandType = CommandType.Text;
-            command.ExecuteNonQuery();
+            catch (Exception es)
+            {
+                MessageBox.Show("ERROR " + es.Message);
+            }
+        }
+
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            conn.Open();
+           
+            var cmd = new SQLiteCommand(conn);
+
+            cmd.CommandText = "SELECT * FROM allProjects";
+
+            checkedListBox1.Items.Clear();
+
+           var reader= cmd.ExecuteReader();
+          
+            while (reader.Read())
+            {
+                checkedListBox1.Items.Add(reader.GetString(0));
+            }
+
+            reader.Close();
+
             conn.Close();
         }
+
+        private void tabPage4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+      
     }
  }
 

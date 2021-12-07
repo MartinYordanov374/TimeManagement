@@ -40,10 +40,12 @@ namespace MaterialDesign
             this.GraphicButton = new MaterialSkin.Controls.MaterialButton();
             this.imageList2 = new System.Windows.Forms.ImageList(this.components);
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.button1 = new System.Windows.Forms.Button();
+            this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
+            this.materialTextBox2 = new MaterialSkin.Controls.MaterialTextBox();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.materialTextBox2 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
+            this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             this.materialTabControl2.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.tabPage5.SuspendLayout();
@@ -65,6 +67,7 @@ namespace MaterialDesign
             // tabPage4
             // 
             this.tabPage4.BackColor = System.Drawing.Color.White;
+            this.tabPage4.Controls.Add(this.materialLabel2);
             this.tabPage4.Controls.Add(this.materialSwitch1);
             this.tabPage4.Controls.Add(this.DataButton);
             this.tabPage4.Controls.Add(this.materialLabel1);
@@ -72,6 +75,7 @@ namespace MaterialDesign
             this.tabPage4.Controls.Add(this.GraphicButton);
             resources.ApplyResources(this.tabPage4, "tabPage4");
             this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Click += new System.EventHandler(this.tabPage4_Click);
             // 
             // materialSwitch1
             // 
@@ -143,6 +147,7 @@ namespace MaterialDesign
             // 
             // tabPage5
             // 
+            this.tabPage5.Controls.Add(this.button1);
             this.tabPage5.Controls.Add(this.materialButton1);
             this.tabPage5.Controls.Add(this.materialTextBox2);
             this.tabPage5.Controls.Add(this.checkedListBox1);
@@ -150,29 +155,12 @@ namespace MaterialDesign
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
-            // checkedListBox1
+            // button1
             // 
-            this.checkedListBox1.FormattingEnabled = true;
-            resources.ApplyResources(this.checkedListBox1, "checkedListBox1");
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
-            // 
-            // tabPage6
-            // 
-            resources.ApplyResources(this.tabPage6, "tabPage6");
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.UseVisualStyleBackColor = true;
-            // 
-            // materialTextBox2
-            // 
-            this.materialTextBox2.AnimateReadOnly = false;
-            this.materialTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox2.Depth = 0;
-            resources.ApplyResources(this.materialTextBox2, "materialTextBox2");
-            this.materialTextBox2.LeadingIcon = null;
-            this.materialTextBox2.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox2.Name = "materialTextBox2";
-            this.materialTextBox2.TrailingIcon = null;
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // materialButton1
             // 
@@ -189,13 +177,47 @@ namespace MaterialDesign
             this.materialButton1.UseVisualStyleBackColor = true;
             this.materialButton1.Click += new System.EventHandler(this.materialButton1_Click_1);
             // 
+            // materialTextBox2
+            // 
+            this.materialTextBox2.AnimateReadOnly = false;
+            this.materialTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.materialTextBox2.Depth = 0;
+            resources.ApplyResources(this.materialTextBox2, "materialTextBox2");
+            this.materialTextBox2.LeadingIcon = null;
+            this.materialTextBox2.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialTextBox2.Name = "materialTextBox2";
+            this.materialTextBox2.TrailingIcon = null;
+            // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.FormattingEnabled = true;
+            resources.ApplyResources(this.checkedListBox1, "checkedListBox1");
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
+            // 
+            // tabPage6
+            // 
+            resources.ApplyResources(this.tabPage6, "tabPage6");
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // materialLabel2
+            // 
+            resources.ApplyResources(this.materialLabel2, "materialLabel2");
+            this.materialLabel2.Depth = 0;
+            this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel2.Name = "materialLabel2";
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.Controls.Add(this.materialTabControl2);
             this.DrawerShowIconsWhenHidden = true;
             this.DrawerTabControl = this.materialTabControl2;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
+            this.Sizable = false;
             this.materialTabControl2.ResumeLayout(false);
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
@@ -221,6 +243,8 @@ namespace MaterialDesign
         private System.Windows.Forms.CheckedListBox checkedListBox1;
         private MaterialSkin.Controls.MaterialButton materialButton1;
         private MaterialSkin.Controls.MaterialTextBox materialTextBox2;
+        private System.Windows.Forms.Button button1;
+        private MaterialSkin.Controls.MaterialLabel materialLabel2;
     }
 }
 
