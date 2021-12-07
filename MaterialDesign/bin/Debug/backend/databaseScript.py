@@ -44,7 +44,3 @@ def populateTables():
 createTables()
 
 populateTables()
-
-
-
-
