@@ -4,6 +4,7 @@ import sqlite3
 weekDays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
 targetDatabase = sqlite3.connect('progressDatabase.db')
+timeSpentOnProjectsY = []
 
 def createTables():
     # creating the progress and allProjects tables
@@ -15,7 +16,7 @@ def createTables():
 
 
     createAllProjectsTableString = '''CREATE TABLE IF NOT EXISTS allProjects (
-    projectName VARCHAR(255) NOT NULL PRIMARY KEY)'''
+    projectName VARCHAR(255) NOT NULL)'''
 
     targetDatabase.execute(createAllProjectsTableString)
     
@@ -30,12 +31,15 @@ def populateTables():
     targetDatabase.commit()
     result = targetDatabase.execute(selectString)
 
-    timeSpentOnProjectsY = []
     for row in result:
         weekday = row[0]
         projectsCompleted = row[1]
         timeSpentOnProjectsY.append(float(projectsCompleted))
-    
+        
+    testQuery = "SELECT * FROM allProjects"
+    testResult = targetDatabase.execute(testQuery)
+    for row in testResult:
+        print(row)
 
 createTables()
 
