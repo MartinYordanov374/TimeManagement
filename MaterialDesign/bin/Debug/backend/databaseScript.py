@@ -40,7 +40,3 @@ def populateTables():
 createTables()
 
 populateTables()
-
-
-
-
