@@ -25,7 +25,6 @@ namespace MaterialDesign
       
         public Form1()
         {
-            
             InitializeComponent();
            
             materialSkinManager= MaterialSkin.MaterialSkinManager.Instance;
@@ -106,12 +105,6 @@ namespace MaterialDesign
             conn.Close();
         }
 
-
-        private void materialButton2_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void materialSwitch1_CheckedChanged(object sender, EventArgs e)
         {
             if (materialSwitch1.Checked)
@@ -133,19 +126,21 @@ namespace MaterialDesign
                 SQLiteCommand sQLiteCommand = conn.CreateCommand();
                 
                 var index = checkedListBox1.SelectedIndex;
+
                 var name = checkedListBox1.Items[index].ToString();
+
                 var query= $"DELETE FROM allProjects WHERE projectName == '{name}'";
 
                 sQLiteCommand.CommandText = query;
                 sQLiteCommand.ExecuteNonQuery();
 
                 checkedListBox1.Items.RemoveAt(checkedListBox1.SelectedIndex);
+
                 count += 1;
 
                 conn.Close();
-
             }
-            catch (Exception es)
+            catch (Exception)
             {
                 Console.WriteLine();
             }
@@ -153,10 +148,10 @@ namespace MaterialDesign
         private void materialButton2_Click_1(object sender, EventArgs e)
         {
             conn.Open();
+
             SQLiteCommand sQLiteCommand = conn.CreateCommand();
 
             sQLiteCommand.CommandText = "SELECT*FROM allProjects";
-
 
             checkedListBox1.Items.Clear();
 
@@ -166,7 +161,9 @@ namespace MaterialDesign
             {
                 checkedListBox1.Items.Add(reader.GetString(0));
             }
+
             reader.Close();
+
             conn.Close();
            
         }
@@ -179,7 +176,6 @@ namespace MaterialDesign
 
                 SQLiteCommand cmd = conn.CreateCommand();
 
-
                 if (materialTextBox2.Text != string.Empty)
                 {
                     checkedListBox1.Items.Add(materialTextBox2.Text);
@@ -189,27 +185,22 @@ namespace MaterialDesign
                     string name = materialTextBox2.Text;
 
                     cmd.Parameters.AddWithValue("@materialTextBox2", name);
+
                     cmd.ExecuteNonQuery();
-                    
                 }
+
                 conn.Close();
             }
-
             catch (Exception es)
             {
                 MessageBox.Show(es.Message);
             }
         }
 
-
-       
-           
-        private void tabPage4_Click(object sender, EventArgs e)
+       private void tabPage4_Click(object sender, EventArgs e)
         {
 
         }
-
-        
     }
 }
  
