@@ -20,20 +20,19 @@ namespace MaterialDesign
     public partial class Form1 : MaterialForm
     {
         SQLiteConnection conn = new SQLiteConnection(@"Data Source=.\backend\progressDatabase.db");
-
+        int count=0;
         readonly MaterialSkin.MaterialSkinManager materialSkinManager;
       
         public Form1()
         {
-           
-
+            
             InitializeComponent();
-
+           
             materialSkinManager= MaterialSkin.MaterialSkinManager.Instance;
             materialSkinManager.EnforceBackcolorOnAllComponents = true;
             materialSkinManager.AddFormToManage(this);
             materialSkinManager.ColorScheme = new MaterialSkin.ColorScheme(MaterialSkin.Primary.Green500, MaterialSkin.Primary.Green800, MaterialSkin.Primary.Green800, MaterialSkin.Accent.Teal700,MaterialSkin.TextShade.WHITE);
-
+           
           
             try
             {
@@ -46,13 +45,16 @@ namespace MaterialDesign
                 process.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
 
                 process.Start();
+
             }
             catch (Exception)
             {
                 Console.WriteLine("Invalid input!");
             }
-
+           
             materialLabel2.Text = DateTime.Now.ToLongDateString();
+
+           
         }
         
         private void materialButton1_Click(object sender, EventArgs e)
@@ -68,6 +70,7 @@ namespace MaterialDesign
                 process.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
 
                 process.Start();
+               
 
             }
             catch (Exception)
@@ -75,11 +78,7 @@ namespace MaterialDesign
 
                 Console.WriteLine("Invalid input!");
             }
-        }
 
-
-        private void materialButton2_Click(object sender, EventArgs e)
-        {
             try
             {
                 conn.Open();
@@ -96,15 +95,21 @@ namespace MaterialDesign
 
             SQLiteCommand command = conn.CreateCommand();
 
-            command.CommandText = "UPDATE progress SET projectsCompleted = " + materialTextBox1.Text + $" where weekday = '{DateTime.Now.DayOfWeek}'";
+            command.CommandText = "UPDATE progress SET projectsCompleted = " + count + $" where weekday = '{DateTime.Now.DayOfWeek}'";
 
-            command.Parameters.AddWithValue("projectsCompleted", materialTextBox1.Text);
+            command.Parameters.AddWithValue("projectsCompleted", count);
 
             command.CommandType = CommandType.Text;
 
             command.ExecuteNonQuery();
 
             conn.Close();
+        }
+
+
+        private void materialButton2_Click(object sender, EventArgs e)
+        {
+            
         }
 
         private void materialSwitch1_CheckedChanged(object sender, EventArgs e)
@@ -135,6 +140,7 @@ namespace MaterialDesign
                 sQLiteCommand.ExecuteNonQuery();
 
                 checkedListBox1.Items.RemoveAt(checkedListBox1.SelectedIndex);
+                count += 1;
 
                 conn.Close();
 
@@ -147,23 +153,22 @@ namespace MaterialDesign
         private void materialButton2_Click_1(object sender, EventArgs e)
         {
             conn.Open();
+            SQLiteCommand sQLiteCommand = conn.CreateCommand();
 
-            var cmd = new SQLiteCommand(conn);
+            sQLiteCommand.CommandText = "SELECT*FROM allProjects";
 
-            cmd.CommandText = "SELECT * FROM allProjects";
 
             checkedListBox1.Items.Clear();
 
-            var reader = cmd.ExecuteReader();
+            var reader = sQLiteCommand.ExecuteReader();
 
             while (reader.Read())
             {
                 checkedListBox1.Items.Add(reader.GetString(0));
             }
-
             reader.Close();
-
             conn.Close();
+           
         }
 
         private void materialButton1_Click_1(object sender, EventArgs e)
@@ -172,7 +177,8 @@ namespace MaterialDesign
             {
                 conn.Open();
 
-                var cmd = new SQLiteCommand(conn);
+                SQLiteCommand cmd = conn.CreateCommand();
+
 
                 if (materialTextBox2.Text != string.Empty)
                 {
@@ -183,15 +189,15 @@ namespace MaterialDesign
                     string name = materialTextBox2.Text;
 
                     cmd.Parameters.AddWithValue("@materialTextBox2", name);
-
                     cmd.ExecuteNonQuery();
-                    conn.Close();
+                    
                 }
+                conn.Close();
             }
 
             catch (Exception es)
             {
-                MessageBox.Show("ERROR " + es.Message);
+                MessageBox.Show(es.Message);
             }
         }
 
@@ -203,7 +209,7 @@ namespace MaterialDesign
 
         }
 
-       
+        
     }
 }
  

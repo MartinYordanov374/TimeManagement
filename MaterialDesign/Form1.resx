@@ -118,15 +118,79 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="materialLabel2.AutoSize" type="System.Boolean, mscorlib">
+  <data name="materialLabel4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="materialLabel2.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="materialLabel4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 14px</value>
   </data>
+  <data name="materialLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>760, 142</value>
+  </data>
+  <data name="materialLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 19</value>
+  </data>
+  <data name="materialLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="materialLabel4.Text" xml:space="preserve">
+    <value>materialLabel4</value>
+  </data>
+  <data name="&gt;&gt;materialLabel4.Name" xml:space="preserve">
+    <value>materialLabel4</value>
+  </data>
+  <data name="&gt;&gt;materialLabel4.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel4.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;materialLabel4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="materialLabel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 14px</value>
+  </data>
+  <data name="materialLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>522, 142</value>
+  </data>
+  <data name="materialLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 19</value>
+  </data>
+  <data name="materialLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="materialLabel3.Text" xml:space="preserve">
+    <value>materialLabel3</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.Name" xml:space="preserve">
+    <value>materialLabel3</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="materialLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14px</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="materialLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="materialLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-1, 3</value>
+    <value>15, 12</value>
   </data>
   <data name="materialLabel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>107, 19</value>
@@ -147,15 +211,17 @@
     <value>tabPage4</value>
   </data>
   <data name="&gt;&gt;materialLabel2.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
   <data name="materialSwitch1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="materialSwitch1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="materialSwitch1.Location" type="System.Drawing.Point, System.Drawing">
     <value>904, 3</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="materialSwitch1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
@@ -178,13 +244,16 @@
     <value>tabPage4</value>
   </data>
   <data name="&gt;&gt;materialSwitch1.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="DataButton.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
   </data>
+  <data name="DataButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="DataButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>286, 282</value>
+    <value>7, 219</value>
   </data>
   <data name="DataButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 6, 4, 6</value>
@@ -208,16 +277,19 @@
     <value>tabPage4</value>
   </data>
   <data name="&gt;&gt;DataButton.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="materialLabel1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="materialLabel1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 14px</value>
+    <value>Microsoft Sans Serif, 14px</value>
+  </data>
+  <data name="materialLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="materialLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>436, 113</value>
+    <value>54, 65</value>
   </data>
   <data name="materialLabel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>147, 19</value>
@@ -238,13 +310,13 @@
     <value>tabPage4</value>
   </data>
   <data name="&gt;&gt;materialLabel1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="materialTextBox1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 16px</value>
+    <value>Microsoft Sans Serif, 16px</value>
   </data>
   <data name="materialTextBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>407, 195</value>
+    <value>38, 123</value>
   </data>
   <data name="materialTextBox1.MaxLength" type="System.Int32, mscorlib">
     <value>50</value>
@@ -271,7 +343,7 @@
     <value>tabPage4</value>
   </data>
   <data name="&gt;&gt;materialTextBox1.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="GraphicButton.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
@@ -284,114 +356,114 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABM
-        HAAAAk1TRnQBSQFMAgEBAwEAAbwBAAG8AQABIAEAASABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAGA
+        HAAAAk1TRnQBSQFMAgEBAwEAAcQBAAHEAQABIAEAASABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAGA
         AwABIAMAAQEBAAEgBgABQP8A/wD/AP8AvQABAQMIAQsDEwEaAx0BKQMjATMDJwE6AygBPQMoAT0DJgE4
         AyEBMAMaASQDEAEVAwQBBgMAAQH/AMkAAwMBBAMfAS0DPQFpA1ABowNZAcwDXAHnA0wB8wNMAfMDXwHg
-        A1cBvwNLAZADNAFVAxIBGQMCAQP/AMEAAwsBDwMoAT0DSgGMA1cBvQNeAdoDVwHoA08B8gMtAfkDFQH8
-        AxUB/AM9AfcDVAHvA1gB4wNaAdUDVQGxA0ABcQMgAS4oAAM5AWADVwG/A1cBvwNXAb8DVwG/A1cBvwNX
+        A1cBvwNLAZADNAFVAxIBGQMCAQP/AMEAAwsBDwMoAT0DSgGMA1cBvQNeAdoDVwHoA1EB8gMvAfkDFgH8
+        AxYB/AM+AfcDVQHvA1gB4wNaAdUDVQGxA0ABcQMgAS4oAAM5AWADVwG/A1cBvwNXAb8DVwG/A1cBvwNX
         Ab8DQwF3AyEBMAMaASQDSwGPA1YBswNXAb8DVwG/A1cBvwNXAb8DUQGnAz4BawQAAy4BRwNLAY8DVwG/
         A1cBvwNXAb8DVwG/A1cBvwNXAb8DIQEwoAADKgFAA0YBgANGAYADRgGAA0YBgANGAYADRgGAAxcBIBAA
-        AyoBQANGAYADRgGAA0YBgANGAYADRgGAA0YBgAMXASAvAAEBAxkBIwM4AV4DUgGoA1wB3AM5AfYDAAH/
-        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A08B8gNYAcsDSwGQAy0BRQMNARIDAAEB
-        HAADRgGAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1ABnwMqAUADIQEwA1cBvwNUAe8DAAH/AwAB/wMA
+        AyoBQANGAYADRgGAA0YBgANGAYADRgGAA0YBgAMXASAvAAEBAxkBIwM4AV4DUgGoA1wB3AM7AfYDAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1EB8gNYAcsDSwGQAy0BRQMNARIDAAEB
+        HAADRgGAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1ABnwMqAUADIQEwA1cBvwNVAe8DAAH/AwAB/wMA
         Af8DAAH/A1cB3wNLAY8EAAM5AV8DVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AyoBQKAAA0YBgAMA
         Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMqAUAQAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DKgFA
         LAADFAEcAzwBZgNXAb0DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
         Af8DAAH/AwAB/wMAAf8DWAHpA1EBpwMtAUUDDQESHAADRgGAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        A1ABnwMqAUADIQEwA1cBvwNUAe8DAAH/AwAB/wMAAf8DAAH/A1cB3wNLAY8EAAM5AV8DVwG/AwAB/wMA
+        A1ABnwMqAUADIQEwA1cBvwNVAe8DAAH/AwAB/wMAAf8DAAH/A1cB3wNLAY8EAAM5AV8DVwG/AwAB/wMA
         Af8DAAH/AwAB/wMAAf8DAAH/AyoBQKAAA0YBgAMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMqAUAQAANG
         AYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DKgFALAADPAFoA1cBxQMAAf8DAAH/AwAB/wMAAf8DAAH/
         AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNRAacDLQFF
-        HAADRgGAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1ABnwMqAUADIQEwA1cBvwNUAe8DAAH/AwAB/wMA
+        HAADRgGAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1ABnwMqAUADIQEwA1cBvwNVAe8DAAH/AwAB/wMA
         Af8DAAH/A1cB3wNLAY8EAAM5AV8DVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AyoBQKAAA0YBgAMA
         Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMqAUAQAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DKgFA
         JAADCwEPAygBPQNWAbkDUwHxAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
         Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1gB6QNLAY8DIAEuGAADRgGAAwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/A1ABnwMqAUADIQEwA1cBvwNUAe8DAAH/AwAB/wMAAf8DAAH/A1cB3wNLAY8EAAM5
+        AwAB/wMAAf8DAAH/A1ABnwMqAUADIQEwA1cBvwNVAe8DAAH/AwAB/wMAAf8DAAH/A1cB3wNLAY8EAAM5
         AV8DVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AyoBQKAAA0YBgAMAAf8DAAH/AwAB/wMAAf8DAAH/
         AwAB/wMqAUAQAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DKgFAIAADAQECAxwBKANNAZYDXgHl
         AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DWAHAA0YBgANGAYADVwHfAwAB/wMAAf8DAAH/
         AwAB/wMAAf8DAAH/AwAB/wMAAf8DWAHLA0EBcgMCAQMDAAEBEAADRgGAAwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/A1ABnwMqAUADIQEwA1cBvwNUAe8DAAH/AwAB/wMAAf8DAAH/A1cB3wNLAY8EAAM5AV8DVwG/
+        Af8DAAH/A1ABnwMqAUADIQEwA1cBvwNVAe8DAAH/AwAB/wMAAf8DAAH/A1cB3wNLAY8EAAM5AV8DVwG/
         AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AyoBQKAAA0YBgAMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMq
-        AUAQAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DKgFAIAADCgENAzABTANaAeQDPAH4AwAB/wMA
+        AUAQAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DKgFAIAADCgENAzABTANaAeQDPQH4AwAB/wMA
         Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DRgGACAADVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DTwHyA1UBsgMSARkDBAEGEAADRgGAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1ABnwMq
-        AUADIQEwA1cBvwNUAe8DAAH/AwAB/wMAAf8DAAH/A1cB3wNLAY8EAAM5AV8DVwG/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DUQHyA1UBsgMSARkDBAEGEAADRgGAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1ABnwMq
+        AUADIQEwA1cBvwNVAe8DAAH/AwAB/wMAAf8DAAH/A1cB3wNLAY8EAAM5AV8DVwG/AwAB/wMAAf8DAAH/
         AwAB/wMAAf8DAAH/AyoBQKAAA0YBgAMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMqAUAQAANGAYADAAH/
         AwAB/wMAAf8DAAH/AwAB/wMAAf8DKgFAIAADHgErA0YBgAMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
         Af8DAAH/AwAB/wMAAf8DRgGACAADVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        A1oB1QM0AVUDEAEVEAADRgGAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1ABnwMqAUADIQEwA1cBvwNU
+        A1oB1QM0AVUDEAEVEAADRgGAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1ABnwMqAUADIQEwA1cBvwNV
         Ae8DAAH/AwAB/wMAAf8DAAH/A1cB3wNLAY8EAAM5AV8DVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
         AyoBQKAAA0YBgAMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMqAUAQAANGAYADAAH/AwAB/wMAAf8DAAH/
         AwAB/wMAAf8DKgFAIAADLgFIA1MBrAMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
         Af8DRgGACAADVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1gB4wNLAZADGgEk
-        EAADRgGAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1ABnwMqAUADIQEwA1cBvwNUAe8DAAH/AwAB/wMA
+        EAADRgGAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1ABnwMqAUADIQEwA1cBvwNVAe8DAAH/AwAB/wMA
         Af8DAAH/A1cB3wNLAY8EAAM5AV8DVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AyoBQKAAA0YBgAMA
         Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wNRAaADRgGAA0YBgANGAYADRgGAA1gBwAMAAf8DAAH/AwAB/wMA
         Af8DAAH/AwAB/wMqAUAgAAM5AV8DWQHPAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wNGAYAIAANXAb8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DVAHvA1YBvgMh
-        ATAQAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DUAGfAyoBQAMhATADVwG/A1QB7wMAAf8DAAH/
+        AwAB/wNGAYAIAANXAb8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DVQHvA1YBvgMh
+        ATAQAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DUAGfAyoBQAMhATADVwG/A1UB7wMAAf8DAAH/
         AwAB/wMAAf8DVwHfA0sBjwQAAzkBXwNXAb8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DKgFAoAADRgGA
         AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
         AwAB/wMAAf8DAAH/AyoBQCAAAz8BbwNcAecDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/A0YBgAgAA1cBvwMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wM9AfcDVwHf
-        AyYBOBAAA0YBgAMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNQAZ8DKgFAAyEBMANXAb8DVAHvAwAB/wMA
+        Af8DAAH/A0YBgAgAA1cBvwMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wM+AfcDVwHf
+        AyYBOBAAA0YBgAMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNQAZ8DKgFAAyEBMANXAb8DVQHvAwAB/wMA
         Af8DAAH/AwAB/wNXAd8DSwGPBAADOQFfA1cBvwMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMqAUCgAANG
         AYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
         Af8DAAH/AwAB/wMAAf8DKgFAIAADRAF5A0IB9QMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DRgGACAADVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AxUB/ANP
-        AfIDKAE9EAADRgGAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1ABnwMqAUADIQEwA1cBvwNUAe8DAAH/
+        AwAB/wMAAf8DRgGACAADVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AxYB/ANR
+        AfIDKAE9EAADRgGAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1ABnwMqAUADIQEwA1cBvwNVAe8DAAH/
         AwAB/wMAAf8DAAH/A1cB3wNLAY8EAAM5AV8DVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AyoBQJAA
         Ax4BKwNAAXADVgG+A1cBvwNXAd8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
         AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DWQHPA1cBvwNQAaQDNQFWAxABFhAAA0QBeQNC
         AfUDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A0YBgAgAA1cBvwMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMVAfwDTwHyAygBPRAAA0YBgAMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wNQAZ8DKgFAAyEBMANXAb8DVAHvAwAB/wMAAf8DAAH/AwAB/wNXAd8DSwGPBAADOQFf
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMWAfwDUQHyAygBPRAAA0YBgAMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wNQAZ8DKgFAAyEBMANXAb8DVQHvAwAB/wMAAf8DAAH/AwAB/wNXAd8DSwGPBAADOQFf
         A1cBvwMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMqAUCQAAMVAR0DNQFWA1MBrANXAegDAAH+AwAB/wMA
         Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AxUB/QNcAdQDSwGPAyYBOQMLAQ8QAANBAXMDWQHsAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        Af8DAAH/AxYB/QNcAdQDSwGPAyYBOQMLAQ8QAANBAXMDWQHsAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
         AwAB/wMAAf8DAAH/AwAB/wNYAcADRgGAA0YBgANXAd8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DLQH5A14B5QMnAToQAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DUAGfAyoBQAMh
-        ATADVwG/A1QB7wMAAf8DAAH/AwAB/wMAAf8DVwHfA0sBjwQAAyEBMAM5AWADRgGAA0YBgANGAYADRgGA
-        A0YBgANGAYADFwEglAADDQERAywBRANTAaoDWgHkAxUB/QMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf4DFQH8A1oB2ANIAYgDIwEzGAADPAFm
+        AwAB/wMAAf8DLwH5A14B5QMnAToQAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DUAGfAyoBQAMh
+        ATADVwG/A1UB7wMAAf8DAAH/AwAB/wMAAf8DVwHfA0sBjwQAAyEBMAM5AWADRgGAA0YBgANGAYADRgGA
+        A0YBgANGAYADFwEglAADDQERAywBRANTAaoDWgHkAxYB/QMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf4DFgH8A1oB2ANIAYgDIwEzGAADPAFm
         A1oB2AMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A08B8gNYAcsDIwEzEAADRgGAAwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DAAH/A1ABnwMqAUADIQEwA1cBvwNUAe8DAAH/AwAB/wMAAf8DAAH/A1cB3wNL
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1EB8gNYAcsDIwEzEAADRgGAAwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/A1ABnwMqAUADIQEwA1cBvwNVAe8DAAH/AwAB/wMAAf8DAAH/A1cB3wNL
         AY/EAAMjATQDTwGcA0IB9QMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AwAB/wMVAfwDTwHyA0ABcAMZASMcAAMzAVIDVgG7AwAB/wMAAf8DAAH/AwAB/wMA
+        AwAB/wMAAf8DAAH/AwAB/wMWAfwDUQHyA0ABcAMZASMcAAMzAVIDVgG7AwAB/wMAAf8DAAH/AwAB/wMA
         Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
         Af8DAAH/AwAB/wMAAf8DVwHoA1ABpAMdASkQAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DUAGf
-        AyoBQAMhATADVwG/A1QB7wMAAf8DAAH/AwAB/wMAAf8DVwHfA0sBj8QAAwoBDQMnATsDSAGFA1QB7gMh
-        AfsDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DPQH3A1gBywM7
+        AyoBQAMhATADVwG/A1UB7wMAAf8DAAH/AwAB/wMAAf8DVwHfA0sBj8QAAwoBDQMnATsDSAGFA1QB7gMh
+        AfsDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DPgH3A1gBywM7
         AWMDGwEmAwcBCRwAAyQBNQNLAY8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
         A1EBoAMqAUADKgFAA1kBzwMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNeAdoDPQFp
-        AxMBGhAAAxcBIAMqAUADKgFAAyoBQAMqAUADKgFAAyoBQAMcASgDDAEQAyEBMANXAb8DVAHvAwAB/wMA
-        Af8DAAH/AwAB/wNXAd8DSwGPyAADCgENAyQBNQNIAYYDWgHTAzkB9gMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AwAB/wMAAf8DTwHyA1UBugM+AWsDEwEaAwUBByAAAxEBFwM4AV4DWAHtAyEB+wMA
+        AxMBGhAAAxcBIAMqAUADKgFAAyoBQAMqAUADKgFAAyoBQAMcASgDDAEQAyEBMANXAb8DVQHvAwAB/wMA
+        Af8DAAH/AwAB/wNXAd8DSwGPyAADCgENAyQBNQNIAYYDWgHTAzsB9gMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DUQHyA1UBugM+AWsDEwEaAwUBByAAAxEBFwM4AV4DWQHtAyEB+wMA
         Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A0YBgAgAA1cBvwMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AzkB9gNWAb4DHwEtAwgBCzQAAyEBMANXAb8DVAHvAwAB/wMAAf8DAAH/AwAB/wNX
-        Ad8DSwGPzAADBQEHAxMBGgNIAYYDXAHOAzkB9gMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DFQH8
-        A08B8gNWAbwDOgFiAw8BFCgAAwEBAgMhATEDVgG5A1QB7gMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        AwAB/wMAAf8DAAH/AzsB9gNWAb4DHwEtAwgBCzQAAyEBMANXAb8DVQHvAwAB/wMAAf8DAAH/AwAB/wNX
+        Ad8DSwGPzAADBQEHAxMBGgNIAYYDXAHOAzsB9gMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DFgH8
+        A1EB8gNWAbwDOgFiAw8BFCgAAwEBAgMhATEDVgG5A1QB7gMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
         Af8DAAH/A1EBoAMqAUADKgFAA1kBzwMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1wB3ANK
-        AYwDAwEEAwABATQAAyEBMANXAb8DVAHvAwAB/wMAAf8DAAH/AwAB/wNXAd8DSwGP1AADDQERA0ABcQNb
-        AdkDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A08B8gNZAcwDLAFEAwgBCzAAAw8BFAMyAVEDXAHU
+        AYwDAwEEAwABATQAAyEBMANXAb8DVQHvAwAB/wMAAf8DAAH/AwAB/wNXAd8DSwGP1AADDQERA0ABcQNb
+        AdkDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1EB8gNZAcwDLAFEAwgBCzAAAw8BFAMyAVEDXAHU
         AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AwAB/wMAAf8DUgGoAygBPTwAAyEBMANXAb8DVAHvAwAB/wMAAf8DAAH/AwAB/wNX
-        Ad8DSwGP1AADAwEEAxgBIQM5AWADWAHLA08B8gMAAf8DAAH/AwAB/wMAAf8DWAHmA1IBqAMoATwDDgET
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DUgGoAygBPTwAAyEBMANXAb8DVQHvAwAB/wMAAf8DAAH/AwAB/wNX
+        Ad8DSwGP1AADAwEEAxgBIQM5AWADWAHLA1EB8gMAAf8DAAH/AwAB/wMAAf8DWAHmA1IBqAMoATwDDgET
         AwIBAzAAAwQBBQMPARQDRwGDA1wB1AMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNXAb0DOAFeAwsBDzwAAyEBMANXAb8DVAHv
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNXAb0DOAFeAwsBDzwAAyEBMANXAb8DVQHv
         AwAB/wMAAf8DAAH/AwAB/wNXAd8DSwGP2AADAgEDAxUBHQM5AWADVQG1A1gB6QMAAf8DAAH/A1gB3QNO
         AZkDLwFKAwQBBgMBAQI8AAMkATUDSAGGA1oB0wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNTAfEDWQHEAzwBZgMZASNAAAMhATADVwG/A1QB7wMA
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNTAfEDWQHEAzwBZgMZASNAAAMhATADVwG/A1UB7wMA
         Af8DAAH/AwAB/wMAAf8DVwHfA0sBj98AAQEDAwEEAzgBXQNUAa8DXQHiA10B4gNNAZUDKgFAAwIBA0QA
         AwEBAgMkATUDRwGCA1wB1ANUAe4DIQH7AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wM8AfgDXgHlA1YBuQM8AWcDFAEbAwABAUAAAyEBMANXAb8DVAHvAwAB/wMAAf8DAAH/AwAB/wNX
-        Ad8DSwGP5wABAQMuAUcDSgGMA0oBjAMaASQDAAEBUAADDwEUAzIBUQNWAbkDWAHtAwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNaAeQDTQGWAygBPUwAAyEBMANXAb8DVAHvAwAB/wMA
+        AwAB/wM9AfgDXgHlA1YBuQM8AWcDFAEbAwABAUAAAyEBMANXAb8DVQHvAwAB/wMAAf8DAAH/AwAB/wNX
+        Ad8DSwGP5wABAQMuAUcDSgGMA0oBjAMaASQDAAEBUAADDwEUAzIBUQNWAbkDWQHtAwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNaAeQDTQGWAygBPUwAAyEBMANXAb8DVQHvAwAB/wMA
         Af8DAAH/AwAB/wNXAd8DSwGP6AADDQESAxkBIwMZASMDBwEJVAADBAEFAw8BFAMhATEDOAFdA0sBjwNV
-        AboDWwHZA1gB7QM5AfYDOQH2A1cB6ANZAc8DUwGsA0YBgAMwAUwDHAEoAwsBD0wAAwkBDAMhATADKAE8
+        AboDWwHZA1kB7QM7AfYDOwH2A1cB6ANZAc8DUwGsA0YBgAMwAUwDHAEoAwsBD0wAAwkBDAMhATADKAE8
         AyoBQAMqAUADKgFAAyoBQAMmATgDGgEk/wBVAAMBAQIDEQEXAyQBNQMzAVIDPAFmA0IBdANEAXoDRAF6
         A0ABcAM5AWADLgFIAx4BKwMKAQ0DAQEC/wD/AP8A/wD/ACkAAUIBTQE+BwABPgMAASgDAAGAAwABIAMA
         AQEBAAEBBgABAhYAA/8BAAz/BAAM/wQABf8BgAEBBf8EAAX/AYABAQX/BAAE/wH+AgAB/wHAAQABCAED
@@ -407,8 +479,11 @@
         AeABDwH/BAAB/wH8AT8B/wH+AgAC/wHgAQ8B/wQABf8BgAEBBf8EAAz/BAAM/wQACw==
 </value>
   </data>
+  <data name="GraphicButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="GraphicButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>611, 282</value>
+    <value>198, 219</value>
   </data>
   <data name="GraphicButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 6, 4, 6</value>
@@ -432,7 +507,7 @@
     <value>tabPage4</value>
   </data>
   <data name="&gt;&gt;GraphicButton.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="tabPage4.ImageKey" xml:space="preserve">
     <value>baseline_home_black_24dp.png</value>
@@ -561,7 +636,7 @@
     <value>Palatino Linotype, 16.2pt, style=Bold, Italic</value>
   </data>
   <data name="checkedListBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>672, 6</value>
+    <value>614, 18</value>
   </data>
   <data name="checkedListBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>420, 238</value>
