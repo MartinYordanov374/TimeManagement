@@ -14,11 +14,12 @@ def createTables():
 
     targetDatabase.execute(createTableString)
 
-
     createAllProjectsTableString = '''CREATE TABLE IF NOT EXISTS allProjects (
-    projectName VARCHAR(255) NOT NULL)'''
+    projectName VARCHAR(255) NOT NULL,
+    allProjectsThisWeek integer NOT NULL)'''
 
     targetDatabase.execute(createAllProjectsTableString)
+    
     
 
 def populateTables():
