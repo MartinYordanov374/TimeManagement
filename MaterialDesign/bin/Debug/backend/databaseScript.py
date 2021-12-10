@@ -13,11 +13,15 @@ def createTables():
     projectsCompleted integer NOT NULL,
     totalProjects integer NOT NULL)'''
 
+
     targetDatabase.execute(createTableString)
 
     createAllProjectsTableString = '''CREATE TABLE IF NOT EXISTS allProjects (
     projectName VARCHAR(255) NOT NULL PRIMARY KEY)'''
+
     targetDatabase.execute(createAllProjectsTableString)
+
+
 
     
 

@@ -77,3 +77,4 @@ D:\Project\SoftUniada\TimeManagement\MaterialDesign\obj\Debug\en-US\MaterialDesi
 D:\Project\SoftUniada\TimeManagement\MaterialDesign\obj\Debug\MaterialDesign.csproj.CopyComplete
 D:\Project\SoftUniada\TimeManagement\MaterialDesign\obj\Debug\MaterialDesign.exe
 D:\Project\SoftUniada\TimeManagement\MaterialDesign\obj\Debug\MaterialDesign.pdb
+D:\Project\SoftUniada\TimeManagement\MaterialDesign\bin\Debug\WinFormAnimation.dll
