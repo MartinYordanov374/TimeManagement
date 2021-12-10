@@ -10,16 +10,15 @@ def createTables():
     # creating the progress and allProjects tables
     createTableString = '''CREATE TABLE IF NOT EXISTS progress (
     weekday VARCHAR(255) NOT NULL UNIQUE PRIMARY KEY, 
-    projectsCompleted integer NOT NULL)'''
+    projectsCompleted integer NOT NULL,
+    totalProjects integer NOT NULL)'''
 
     targetDatabase.execute(createTableString)
 
     createAllProjectsTableString = '''CREATE TABLE IF NOT EXISTS allProjects (
-    projectName VARCHAR(255) NOT NULL,
-    allProjectsThisWeek integer NOT NULL)'''
-
+    projectName VARCHAR(255) NOT NULL PRIMARY KEY)'''
     targetDatabase.execute(createAllProjectsTableString)
-    
+
     
 
 def populateTables():
