@@ -68,7 +68,10 @@ namespace MaterialDesign
             }
             materialLabel1.Text = temp.ToString();
             rd.Close();
+            materialLabel3.Text = (count + checkedListBox1.Items.Count).ToString();
             conn.Close();
+
+           
         }
 
         private void materialButton1_Click(object sender, EventArgs e)
@@ -177,9 +180,11 @@ namespace MaterialDesign
                 while (readers.Read())
                 {
                     temp = int.Parse(readers["projectsCompleted"].ToString());
+                    temp = count;
                 }
                 materialLabel1.Text = temp.ToString();
                 readers.Close();
+                materialLabel3.Text = (count + checkedListBox1.Items.Count).ToString();
                 conn.Close();
 
 
@@ -234,6 +239,7 @@ namespace MaterialDesign
                     cmd.ExecuteNonQuery();
                 }
                 materialTextBox2.Clear();
+                materialLabel3.Text = (count + checkedListBox1.Items.Count).ToString();
                 conn.Close();
             }
             catch (Exception es)
