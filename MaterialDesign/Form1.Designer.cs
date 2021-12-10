@@ -206,6 +206,7 @@ namespace MaterialDesign
             // 
             // checkedListBox1
             // 
+            this.checkedListBox1.CheckOnClick = true;
             resources.ApplyResources(this.checkedListBox1, "checkedListBox1");
             this.checkedListBox1.FormattingEnabled = true;
             this.checkedListBox1.Name = "checkedListBox1";
