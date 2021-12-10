@@ -17,10 +17,12 @@ using LiveCharts;
 
 namespace MaterialDesign
 {
+    
     public partial class Form1 : MaterialForm
     {
+       
         SQLiteConnection conn = new SQLiteConnection(@"Data Source=.\backend\progressDatabase.db");
-        int count=0;
+        int count;
         readonly MaterialSkin.MaterialSkinManager materialSkinManager;
       
         public Form1()
@@ -30,8 +32,8 @@ namespace MaterialDesign
             materialSkinManager= MaterialSkin.MaterialSkinManager.Instance;
             materialSkinManager.EnforceBackcolorOnAllComponents = true;
             materialSkinManager.AddFormToManage(this);
-            materialSkinManager.ColorScheme = new MaterialSkin.ColorScheme(MaterialSkin.Primary.Green500, MaterialSkin.Primary.Green800, MaterialSkin.Primary.Green800, MaterialSkin.Accent.Teal700,MaterialSkin.TextShade.WHITE);
-           
+            materialSkinManager.ColorScheme = new MaterialSkin.ColorScheme(MaterialSkin.Primary.Orange500, MaterialSkin.Primary.Orange700, MaterialSkin.Primary.Orange800, MaterialSkin.Accent.Orange400,MaterialSkin.TextShade.WHITE);
+
           
             try
             {
@@ -55,7 +57,7 @@ namespace MaterialDesign
 
            
         }
-        
+
         private void materialButton1_Click(object sender, EventArgs e)
         {
             try
@@ -69,7 +71,7 @@ namespace MaterialDesign
                 process.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
 
                 process.Start();
-               
+
 
             }
             catch (Exception)
@@ -91,22 +93,18 @@ namespace MaterialDesign
 
             sQLiteCommand.CommandText = "SELECT*FROM progress";
 
-
+            
             SQLiteCommand command = conn.CreateCommand();
 
-            command.CommandText = "UPDATE progress SET projectsCompleted = " + count + $" where weekday = '{DateTime.Now.DayOfWeek}'";
-
-            command.Parameters.AddWithValue("projectsCompleted", count);
-
-            command.CommandType = CommandType.Text;
-
-            command.ExecuteNonQuery();
-
             conn.Close();
+             
+            
+           
         }
 
         private void materialSwitch1_CheckedChanged(object sender, EventArgs e)
         {
+            
             if (materialSwitch1.Checked)
             {
                 materialSkinManager.Theme = MaterialSkin.MaterialSkinManager.Themes.DARK;
@@ -115,16 +113,17 @@ namespace MaterialDesign
             {
                 materialSkinManager.Theme = MaterialSkin.MaterialSkinManager.Themes.LIGHT;
             }
+            
         }
 
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            try
+           try
             {
                 conn.Open();
 
                 SQLiteCommand sQLiteCommand = conn.CreateCommand();
-                
+
                 var index = checkedListBox1.SelectedIndex;
 
                 var name = checkedListBox1.Items[index].ToString();
@@ -132,18 +131,33 @@ namespace MaterialDesign
                 var query= $"DELETE FROM allProjects WHERE projectName == '{name}'";
 
                 sQLiteCommand.CommandText = query;
+
                 sQLiteCommand.ExecuteNonQuery();
 
                 checkedListBox1.Items.RemoveAt(checkedListBox1.SelectedIndex);
 
-                count += 1;
+               sQLiteCommand.CommandText=$"SELECT projectsCompleted FROM progress where weekday = '{DateTime.Now.DayOfWeek}'";
+
+                var rd = sQLiteCommand.ExecuteReader();
+
+                while (rd.Read())
+                {
+                    count = int.Parse(rd["projectsCompleted"].ToString())+1;
+
+                    SQLiteCommand comm = conn.CreateCommand();
+
+                    comm.CommandText = "UPDATE progress SET projectsCompleted = " + count + $" where weekday = '{DateTime.Now.DayOfWeek}'";
+
+                    comm.ExecuteNonQuery();
+                }
+                rd.Close();
 
                 conn.Close();
-            }
-            catch (Exception)
-            {
+              }
+               catch (Exception)
+              {
                 Console.WriteLine();
-            }
+              }
         }
         private void materialButton2_Click_1(object sender, EventArgs e)
         {
@@ -161,7 +175,7 @@ namespace MaterialDesign
             {
                 checkedListBox1.Items.Add(reader.GetString(0));
             }
-
+           
             reader.Close();
 
             conn.Close();
@@ -188,7 +202,7 @@ namespace MaterialDesign
 
                     cmd.ExecuteNonQuery();
                 }
-
+                materialTextBox2.Clear();
                 conn.Close();
             }
             catch (Exception es)
