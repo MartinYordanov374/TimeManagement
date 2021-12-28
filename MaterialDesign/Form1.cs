@@ -23,17 +23,19 @@ namespace MaterialDesign
 
         SQLiteConnection conn = new SQLiteConnection(@"Data Source=.\backend\progressDatabase.db");
         int count;
+           int temp = 0;
+        int result = 0;
         readonly MaterialSkin.MaterialSkinManager materialSkinManager;
 
         public Form1()
         {
             InitializeComponent();
-
-            materialSkinManager = MaterialSkin.MaterialSkinManager.Instance;
+            
+              materialSkinManager = MaterialSkin.MaterialSkinManager.Instance;
             materialSkinManager.EnforceBackcolorOnAllComponents = true;
             materialSkinManager.AddFormToManage(this);
             materialSkinManager.ColorScheme = new MaterialSkin.ColorScheme(MaterialSkin.Primary.Orange500, MaterialSkin.Primary.Orange700, MaterialSkin.Primary.Orange800, MaterialSkin.Accent.Orange400, MaterialSkin.TextShade.WHITE);
-
+            materialSkinManager.Theme = MaterialSkin.MaterialSkinManager.Themes.DARK;
 
             try
             {
@@ -69,9 +71,10 @@ namespace MaterialDesign
             materialLabel1.Text = temp.ToString();
             rd.Close();
             materialLabel3.Text = (count + checkedListBox1.Items.Count).ToString();
+            
             conn.Close();
+            
 
-           
         }
 
         private void materialButton1_Click(object sender, EventArgs e)
@@ -118,20 +121,7 @@ namespace MaterialDesign
 
         }
 
-        private void materialSwitch1_CheckedChanged(object sender, EventArgs e)
-        {
-
-            if (materialSwitch1.Checked)
-            {
-                materialSkinManager.Theme = MaterialSkin.MaterialSkinManager.Themes.DARK;
-            }
-            else
-            {
-                materialSkinManager.Theme = MaterialSkin.MaterialSkinManager.Themes.LIGHT;
-            }
-
-        }
-
+     
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             try
@@ -176,7 +166,7 @@ namespace MaterialDesign
                 command.ExecuteNonQuery();
                 var readers = command.ExecuteReader();
 
-                int temp = 0;
+             
                 while (readers.Read())
                 {
                     temp = int.Parse(readers["projectsCompleted"].ToString());
@@ -249,6 +239,13 @@ namespace MaterialDesign
         }
 
         private void tabPage4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        
+
+        private void materialLabel1_Click(object sender, EventArgs e)
         {
 
         }
