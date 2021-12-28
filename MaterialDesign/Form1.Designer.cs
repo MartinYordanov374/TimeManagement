@@ -33,8 +33,9 @@ namespace MaterialDesign
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.materialTabControl2 = new MaterialSkin.Controls.MaterialTabControl();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialSwitch1 = new MaterialSkin.Controls.MaterialSwitch();
             this.GraphicButton = new MaterialSkin.Controls.MaterialButton();
             this.imageList2 = new System.Windows.Forms.ImageList(this.components);
             this.tabPage5 = new System.Windows.Forms.TabPage();
@@ -43,8 +44,6 @@ namespace MaterialDesign
             this.materialTextBox2 = new MaterialSkin.Controls.MaterialTextBox();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
             this.materialTabControl2.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.tabPage5.SuspendLayout();
@@ -69,11 +68,25 @@ namespace MaterialDesign
             this.tabPage4.Controls.Add(this.materialLabel3);
             this.tabPage4.Controls.Add(this.materialLabel1);
             this.tabPage4.Controls.Add(this.materialLabel2);
-            this.tabPage4.Controls.Add(this.materialSwitch1);
             this.tabPage4.Controls.Add(this.GraphicButton);
             resources.ApplyResources(this.tabPage4, "tabPage4");
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Click += new System.EventHandler(this.tabPage4_Click);
+            // 
+            // materialLabel3
+            // 
+            resources.ApplyResources(this.materialLabel3, "materialLabel3");
+            this.materialLabel3.Depth = 0;
+            this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel3.Name = "materialLabel3";
+            // 
+            // materialLabel1
+            // 
+            resources.ApplyResources(this.materialLabel1, "materialLabel1");
+            this.materialLabel1.Depth = 0;
+            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel1.Name = "materialLabel1";
+            this.materialLabel1.Click += new System.EventHandler(this.materialLabel1_Click);
             // 
             // materialLabel2
             // 
@@ -81,17 +94,6 @@ namespace MaterialDesign
             this.materialLabel2.Depth = 0;
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
-            // 
-            // materialSwitch1
-            // 
-            resources.ApplyResources(this.materialSwitch1, "materialSwitch1");
-            this.materialSwitch1.Depth = 0;
-            this.materialSwitch1.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialSwitch1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialSwitch1.Name = "materialSwitch1";
-            this.materialSwitch1.Ripple = true;
-            this.materialSwitch1.UseVisualStyleBackColor = true;
-            this.materialSwitch1.CheckedChanged += new System.EventHandler(this.materialSwitch1_CheckedChanged);
             // 
             // GraphicButton
             // 
@@ -182,20 +184,6 @@ namespace MaterialDesign
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
-            // materialLabel1
-            // 
-            resources.ApplyResources(this.materialLabel1, "materialLabel1");
-            this.materialLabel1.Depth = 0;
-            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel1.Name = "materialLabel1";
-            // 
-            // materialLabel3
-            // 
-            resources.ApplyResources(this.materialLabel3, "materialLabel3");
-            this.materialLabel3.Depth = 0;
-            this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel3.Name = "materialLabel3";
-            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
@@ -228,7 +216,6 @@ namespace MaterialDesign
         private MaterialSkin.Controls.MaterialButton materialButton2;
         private System.Windows.Forms.TabPage tabPage4;
         private MaterialSkin.Controls.MaterialLabel materialLabel2;
-        private MaterialSkin.Controls.MaterialSwitch materialSwitch1;
         private MaterialSkin.Controls.MaterialButton GraphicButton;
         private MaterialSkin.Controls.MaterialLabel materialLabel3;
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
