@@ -23,15 +23,15 @@ namespace MaterialDesign
 
         SQLiteConnection conn = new SQLiteConnection(@"Data Source=.\backend\progressDatabase.db");
         int count;
-           int temp = 0;
+        int temp = 0;
         int result = 0;
         readonly MaterialSkin.MaterialSkinManager materialSkinManager;
 
         public Form1()
         {
             InitializeComponent();
-            
-              materialSkinManager = MaterialSkin.MaterialSkinManager.Instance;
+
+            materialSkinManager = MaterialSkin.MaterialSkinManager.Instance;
             materialSkinManager.EnforceBackcolorOnAllComponents = true;
             materialSkinManager.AddFormToManage(this);
             materialSkinManager.ColorScheme = new MaterialSkin.ColorScheme(MaterialSkin.Primary.Orange500, MaterialSkin.Primary.Orange700, MaterialSkin.Primary.Orange800, MaterialSkin.Accent.Orange400, MaterialSkin.TextShade.WHITE);
@@ -70,10 +70,28 @@ namespace MaterialDesign
             }
             materialLabel1.Text = temp.ToString();
             rd.Close();
-            materialLabel3.Text = (count + checkedListBox1.Items.Count).ToString();
-            
             conn.Close();
-            
+
+            conn.Open();
+            int result = 0;
+            SQLiteCommand CMD = conn.CreateCommand();
+            CMD.CommandText = $"SELECT projectsDue FROM projectsDue";
+            CMD.ExecuteNonQuery();
+            var rds = CMD.ExecuteReader();
+
+            while (rds.Read())
+            {
+                result = int.Parse(rds["projectsDue"].ToString());
+            }
+            rds.Close();
+            SQLiteCommand cmd = conn.CreateCommand();
+            cmd.CommandText = $"INSERT INTO projectsDue  (projectsDue ) VALUES(@result)";
+            cmd.Parameters.AddWithValue("@result", result);
+            cmd.ExecuteNonQuery();
+
+            materialLabel3.Text = result.ToString();
+            conn.Close();
+
 
         }
 
@@ -121,7 +139,7 @@ namespace MaterialDesign
 
         }
 
-     
+
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             try
@@ -166,7 +184,6 @@ namespace MaterialDesign
                 command.ExecuteNonQuery();
                 var readers = command.ExecuteReader();
 
-             
                 while (readers.Read())
                 {
                     temp = int.Parse(readers["projectsCompleted"].ToString());
@@ -174,11 +191,22 @@ namespace MaterialDesign
                 }
                 materialLabel1.Text = temp.ToString();
                 readers.Close();
-                materialLabel3.Text = (count + checkedListBox1.Items.Count).ToString();
                 conn.Close();
 
 
+                conn.Open();
+                int result = 0;
+                SQLiteCommand CMD = conn.CreateCommand();
+                CMD.CommandText = $"SELECT projectsDue FROM projectsDue";
+                CMD.ExecuteNonQuery();
+                //var rds= CMD.ExecuteReader();
 
+                //while (rds.Read())
+                //{
+                //     result = int.Parse(materialLabel1.Text)+ int.Parse(rds["projectsDue"].ToString());
+                //}
+                //rds.Close();
+                conn.Close();
             }
             catch (Exception)
             {
@@ -229,7 +257,28 @@ namespace MaterialDesign
                     cmd.ExecuteNonQuery();
                 }
                 materialTextBox2.Clear();
-                materialLabel3.Text = (count + checkedListBox1.Items.Count).ToString();
+                //materialLabel3.Text = (count + checkedListBox1.Items.Count).ToString();
+                conn.Close();
+
+                conn.Open(); 
+                SQLiteCommand query = conn.CreateCommand();
+                int result = 0;
+                query.CommandText = $"SELECT projectsDue FROM projectsDue";
+                query.ExecuteNonQuery();
+                var rds = query.ExecuteReader();
+
+                while (rds.Read())
+                {
+                    result = int.Parse(rds["projectsDue"].ToString());
+                }
+                rds.Close();
+                SQLiteCommand CMD = conn.CreateCommand();
+
+                result += 1;
+                CMD.CommandText = "UPDATE projectsDue  SET projectsDue  = " + result;
+                
+                CMD.ExecuteNonQuery();
+                materialLabel3.Text = result.ToString();
                 conn.Close();
             }
             catch (Exception es)
@@ -243,7 +292,7 @@ namespace MaterialDesign
 
         }
 
-        
+
 
         private void materialLabel1_Click(object sender, EventArgs e)
         {
