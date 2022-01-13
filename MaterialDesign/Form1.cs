@@ -14,6 +14,7 @@ using System.Drawing.Drawing2D;
 using System.Threading;
 using System.Data.SQLite;
 using LiveCharts;
+using System.Drawing.Text;
 
 namespace MaterialDesign
 {
@@ -36,6 +37,7 @@ namespace MaterialDesign
             materialSkinManager.AddFormToManage(this);
             materialSkinManager.ColorScheme = new MaterialSkin.ColorScheme(MaterialSkin.Primary.Orange500, MaterialSkin.Primary.Orange700, MaterialSkin.Primary.Orange800, MaterialSkin.Accent.Orange400, MaterialSkin.TextShade.WHITE);
             materialSkinManager.Theme = MaterialSkin.MaterialSkinManager.Themes.DARK;
+
 
             try
             {
@@ -287,16 +289,20 @@ namespace MaterialDesign
             }
         }
 
-        private void tabPage4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-
-
         private void materialLabel1_Click(object sender, EventArgs e)
         {
 
         }
+
+
+        private void materialTextBox2_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                materialButton1.PerformClick();
+            }
+        }
+
+     
     }
 }
