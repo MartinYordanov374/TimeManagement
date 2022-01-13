@@ -78,3 +78,5 @@ D:\Project\SoftUniada\TimeManagement\MaterialDesign\obj\Debug\MaterialDesign.csp
 D:\Project\SoftUniada\TimeManagement\MaterialDesign\obj\Debug\MaterialDesign.exe
 D:\Project\SoftUniada\TimeManagement\MaterialDesign\obj\Debug\MaterialDesign.pdb
 D:\Project\SoftUniada\TimeManagement\MaterialDesign\bin\Debug\WinFormAnimation.dll
+D:\Project\SoftUniada\TimeManagement\MaterialDesign\bin\Debug\CircularProgressBar.dll
+D:\Project\SoftUniada\TimeManagement\MaterialDesign\bin\Debug\CircularProgressBar.xml
