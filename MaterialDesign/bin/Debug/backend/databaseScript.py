@@ -22,6 +22,12 @@ def createTables():
     targetDatabase.execute(createAllProjectsTableString)
 
 
+    createProjectsDueTableString = '''CREATE TABLE IF NOT EXISTS projectsDue (
+    projectsDue integer NOT NULL )'''
+
+    targetDatabase.execute(createProjectsDueTableString)
+
+
 
     
 
