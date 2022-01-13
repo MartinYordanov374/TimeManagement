@@ -80,3 +80,4 @@ D:\Project\SoftUniada\TimeManagement\MaterialDesign\obj\Debug\MaterialDesign.pdb
 D:\Project\SoftUniada\TimeManagement\MaterialDesign\bin\Debug\WinFormAnimation.dll
 D:\Project\SoftUniada\TimeManagement\MaterialDesign\bin\Debug\CircularProgressBar.dll
 D:\Project\SoftUniada\TimeManagement\MaterialDesign\bin\Debug\CircularProgressBar.xml
+D:\Project\SoftUniada\TimeManagement\MaterialDesign\obj\Debug\MaterialDesign.csproj.SuggestedBindingRedirects.cache
