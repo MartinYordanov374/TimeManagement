@@ -31,14 +31,18 @@ namespace MaterialDesign
         public Form1()
         {
             InitializeComponent();
-
+            
             materialSkinManager = MaterialSkin.MaterialSkinManager.Instance;
             materialSkinManager.EnforceBackcolorOnAllComponents = true;
             materialSkinManager.AddFormToManage(this);
             materialSkinManager.ColorScheme = new MaterialSkin.ColorScheme(MaterialSkin.Primary.Orange500, MaterialSkin.Primary.Orange700, MaterialSkin.Primary.Orange800, MaterialSkin.Accent.Orange400, MaterialSkin.TextShade.WHITE);
             materialSkinManager.Theme = MaterialSkin.MaterialSkinManager.Themes.DARK;
 
-
+            if (true)
+            {
+                errorProvider1.SetError(chart1, "You should turn on  again the app to see new values of chart");
+               
+            }
             try
             {
                 Process process = new Process();
@@ -93,55 +97,9 @@ namespace MaterialDesign
 
             materialLabel3.Text = result.ToString();
             conn.Close();
-
-
-        }
-
-        private void materialButton1_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                Process process = new Process();
-
-                process.StartInfo.FileName = "showPlots.py";
-                process.StartInfo.WorkingDirectory = @".\backend";
-                process.StartInfo.Arguments = "python";
-
-                process.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
-
-                process.Start();
-
-
-            }
-            catch (Exception)
-            {
-
-                Console.WriteLine("Invalid input!");
-            }
-
-            try
-            {
-                conn.Open();
-            }
-            catch (Exception)
-            {
-                Console.WriteLine("DB can not open");
-            }
-
-            SQLiteCommand sQLiteCommand = conn.CreateCommand();
-
-            sQLiteCommand.CommandText = "SELECT*FROM progress";
-
-
-            SQLiteCommand command = conn.CreateCommand();
-
-            conn.Close();
-
-
+            Fill();
 
         }
-
-
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             try
@@ -303,6 +261,66 @@ namespace MaterialDesign
             }
         }
 
-     
+        public void Fill()
+        {
+            //AddXY value in chart1 in series named as Salary  
+            chart1.Series["Task"].Points.AddXY("AddDayProjects", materialLabel1.Text);
+            chart1.Series["Task"].Points.AddXY("TotalProjects", materialLabel3.Text);
+            //chart title  
+            
+        }
+
+        private void materialButton3_Click(object sender, EventArgs e)
+        {
+            chart1.Hide();
+        }
+
+        private void materialButton4_Click(object sender, EventArgs e)
+        {
+            chart1.Show();
+        }
+
+
+        private void materialButton5_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+                Process process = new Process();
+
+                process.StartInfo.FileName = "showPlots.py";
+                process.StartInfo.WorkingDirectory = @".\backend";
+                process.StartInfo.Arguments = "python";
+
+                process.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
+
+                process.Start();
+
+
+            }
+            catch (Exception)
+            {
+
+                Console.WriteLine("Invalid input!");
+            }
+
+            try
+            {
+                conn.Open();
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("DB can not open");
+            }
+
+            SQLiteCommand sQLiteCommand = conn.CreateCommand();
+
+            sQLiteCommand.CommandText = "SELECT*FROM progress";
+
+
+            SQLiteCommand command = conn.CreateCommand();
+
+            conn.Close();
+
+        }
     }
 }
