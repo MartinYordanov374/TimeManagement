@@ -41,7 +41,6 @@ namespace MaterialDesign
             if (true)
             {
                 errorProvider1.SetError(chart1, "You should turn on  again the app to see new values of chart");
-               
             }
             try
             {
@@ -149,23 +148,17 @@ namespace MaterialDesign
                     temp = int.Parse(readers["projectsCompleted"].ToString());
                     temp = count;
                 }
+
                 materialLabel1.Text = temp.ToString();
                 readers.Close();
                 conn.Close();
 
 
                 conn.Open();
-                int result = 0;
                 SQLiteCommand CMD = conn.CreateCommand();
                 CMD.CommandText = $"SELECT projectsDue FROM projectsDue";
                 CMD.ExecuteNonQuery();
-                //var rds= CMD.ExecuteReader();
-
-                //while (rds.Read())
-                //{
-                //     result = int.Parse(materialLabel1.Text)+ int.Parse(rds["projectsDue"].ToString());
-                //}
-                //rds.Close();
+               
                 conn.Close();
             }
             catch (Exception)
@@ -217,7 +210,7 @@ namespace MaterialDesign
                     cmd.ExecuteNonQuery();
                 }
                 materialTextBox2.Clear();
-                //materialLabel3.Text = (count + checkedListBox1.Items.Count).ToString();
+                
                 conn.Close();
 
                 conn.Open(); 
