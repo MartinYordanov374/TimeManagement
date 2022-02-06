@@ -30,10 +30,10 @@ namespace MaterialDesign
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.materialTabControl2 = new MaterialSkin.Controls.MaterialTabControl();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.materialButton4 = new MaterialSkin.Controls.MaterialButton();
@@ -44,8 +44,9 @@ namespace MaterialDesign
             this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
-            this.imageList2 = new System.Windows.Forms.ImageList(this.components);
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.materialButton5 = new MaterialSkin.Controls.MaterialButton();
+            this.imageList2 = new System.Windows.Forms.ImageList(this.components);
             this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
             this.materialButton2 = new MaterialSkin.Controls.MaterialButton();
@@ -53,12 +54,16 @@ namespace MaterialDesign
             this.materialTextBox2 = new MaterialSkin.Controls.MaterialTextBox();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.materialButton5 = new MaterialSkin.Controls.MaterialButton();
+            this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.materialLabel9 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel10 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel11 = new MaterialSkin.Controls.MaterialLabel();
             this.materialTabControl2.SuspendLayout();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.tabPage5.SuspendLayout();
+            this.tabPage6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -123,32 +128,34 @@ namespace MaterialDesign
             // 
             // chart1
             // 
-            this.chart1.BorderlineColor = System.Drawing.Color.DimGray;
-            chartArea2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            chartArea2.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea2);
-            legend2.BackColor = System.Drawing.SystemColors.GrayText;
-            legend2.Enabled = false;
-            legend2.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            legend2.ForeColor = System.Drawing.Color.Maroon;
-            legend2.InterlacedRowsColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            legend2.IsTextAutoFit = false;
-            legend2.Name = "Legend1";
-            this.chart1.Legends.Add(legend2);
+            chartArea1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            chartArea1.Name = "ChartArea1";
+            chartArea1.ShadowColor = System.Drawing.Color.Red;
+            this.chart1.ChartAreas.Add(chartArea1);
+            legend1.BackColor = System.Drawing.Color.Red;
+            legend1.Enabled = false;
+            legend1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            legend1.ForeColor = System.Drawing.Color.Maroon;
+            legend1.InterlacedRowsColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            legend1.IsTextAutoFit = false;
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
             resources.ApplyResources(this.chart1, "chart1");
             this.chart1.Name = "chart1";
-            series2.BackSecondaryColor = System.Drawing.Color.Gray;
-            series2.BorderColor = System.Drawing.Color.Gray;
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
-            series2.Color = System.Drawing.Color.Gray;
-            series2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            series2.LabelBackColor = System.Drawing.Color.Gainsboro;
-            series2.LabelBorderColor = System.Drawing.Color.Gainsboro;
-            series2.LabelBorderDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.NotSet;
-            series2.Legend = "Legend1";
-            series2.Name = "Task";
-            this.chart1.Series.Add(series2);
+            series1.BackSecondaryColor = System.Drawing.Color.Gray;
+            series1.BorderColor = System.Drawing.Color.Gray;
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
+            series1.Color = System.Drawing.Color.Gray;
+            series1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            series1.LabelBackColor = System.Drawing.Color.LightYellow;
+            series1.LabelBorderColor = System.Drawing.Color.LightYellow;
+            series1.LabelBorderDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.DashDot;
+            series1.LabelForeColor = System.Drawing.Color.Red;
+            series1.Legend = "Legend1";
+            series1.Name = "Task";
+            series1.ShadowColor = System.Drawing.Color.Red;
+            this.chart1.Series.Add(series1);
             // 
             // materialLabel5
             // 
@@ -191,14 +198,6 @@ namespace MaterialDesign
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
             // 
-            // imageList2
-            // 
-            this.imageList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList2.ImageStream")));
-            this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList2.Images.SetKeyName(0, "baseline_home_black_24dp.png");
-            this.imageList2.Images.SetKeyName(1, "baseline_info_black_24dp.png");
-            this.imageList2.Images.SetKeyName(2, "baseline_leaderboard_black_24dp.png");
-            // 
             // tabPage5
             // 
             this.tabPage5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -212,6 +211,30 @@ namespace MaterialDesign
             resources.ApplyResources(this.tabPage5, "tabPage5");
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // materialButton5
+            // 
+            resources.ApplyResources(this.materialButton5, "materialButton5");
+            this.materialButton5.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton5.Depth = 0;
+            this.materialButton5.HighEmphasis = true;
+            this.materialButton5.Icon = null;
+            this.materialButton5.ImageList = this.imageList2;
+            this.materialButton5.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton5.Name = "materialButton5";
+            this.materialButton5.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton5.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton5.UseAccentColor = false;
+            this.materialButton5.UseVisualStyleBackColor = true;
+            this.materialButton5.Click += new System.EventHandler(this.materialButton5_Click_1);
+            // 
+            // imageList2
+            // 
+            this.imageList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList2.ImageStream")));
+            this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList2.Images.SetKeyName(0, "baseline_home_black_24dp.png");
+            this.imageList2.Images.SetKeyName(1, "baseline_info_black_24dp.png");
+            this.imageList2.Images.SetKeyName(2, "baseline_leaderboard_black_24dp.png");
             // 
             // materialLabel8
             // 
@@ -285,30 +308,54 @@ namespace MaterialDesign
             // 
             // tabPage6
             // 
+            this.tabPage6.Controls.Add(this.materialLabel11);
+            this.tabPage6.Controls.Add(this.materialLabel10);
+            this.tabPage6.Controls.Add(this.materialLabel9);
+            this.tabPage6.Controls.Add(this.materialLabel7);
             resources.ApplyResources(this.tabPage6, "tabPage6");
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.UseVisualStyleBackColor = true;
+            this.tabPage6.Click += new System.EventHandler(this.tabPage6_Click);
             // 
-            // materialButton5
+            // materialLabel7
             // 
-            resources.ApplyResources(this.materialButton5, "materialButton5");
-            this.materialButton5.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton5.Depth = 0;
-            this.materialButton5.HighEmphasis = true;
-            this.materialButton5.Icon = null;
-            this.materialButton5.ImageList = this.imageList2;
-            this.materialButton5.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton5.Name = "materialButton5";
-            this.materialButton5.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton5.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton5.UseAccentColor = false;
-            this.materialButton5.UseVisualStyleBackColor = true;
-            this.materialButton5.Click += new System.EventHandler(this.materialButton5_Click_1);
+            resources.ApplyResources(this.materialLabel7, "materialLabel7");
+            this.materialLabel7.Depth = 0;
+            this.materialLabel7.FontType = MaterialSkin.MaterialSkinManager.fontType.H4;
+            this.materialLabel7.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel7.Name = "materialLabel7";
+            this.materialLabel7.Click += new System.EventHandler(this.materialLabel7_Click);
             // 
             // errorProvider1
             // 
             this.errorProvider1.ContainerControl = this;
             resources.ApplyResources(this.errorProvider1, "errorProvider1");
+            // 
+            // materialLabel9
+            // 
+            resources.ApplyResources(this.materialLabel9, "materialLabel9");
+            this.materialLabel9.Depth = 0;
+            this.materialLabel9.FontType = MaterialSkin.MaterialSkinManager.fontType.H4;
+            this.materialLabel9.ForeColor = System.Drawing.SystemColors.Control;
+            this.materialLabel9.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel9.Name = "materialLabel9";
+            // 
+            // materialLabel10
+            // 
+            resources.ApplyResources(this.materialLabel10, "materialLabel10");
+            this.materialLabel10.Depth = 0;
+            this.materialLabel10.FontType = MaterialSkin.MaterialSkinManager.fontType.H4;
+            this.materialLabel10.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel10.Name = "materialLabel10";
+            // 
+            // materialLabel11
+            // 
+            resources.ApplyResources(this.materialLabel11, "materialLabel11");
+            this.materialLabel11.Depth = 0;
+            this.materialLabel11.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.materialLabel11.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel11.Name = "materialLabel11";
             // 
             // Form1
             // 
@@ -320,12 +367,15 @@ namespace MaterialDesign
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.Sizable = false;
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.materialTabControl2.ResumeLayout(false);
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
+            this.tabPage6.ResumeLayout(false);
+            this.tabPage6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
 
@@ -355,6 +405,10 @@ namespace MaterialDesign
         private MaterialSkin.Controls.MaterialButton materialButton4;
         private MaterialSkin.Controls.MaterialButton materialButton5;
         private System.Windows.Forms.ErrorProvider errorProvider1;
+        private MaterialSkin.Controls.MaterialLabel materialLabel7;
+        private MaterialSkin.Controls.MaterialLabel materialLabel10;
+        private MaterialSkin.Controls.MaterialLabel materialLabel9;
+        private MaterialSkin.Controls.MaterialLabel materialLabel11;
     }
 }
 

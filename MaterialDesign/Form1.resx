@@ -117,590 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;materialButton4.Name" xml:space="preserve">
-    <value>materialButton4</value>
-  </data>
-  <data name="&gt;&gt;materialButton4.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialButton4.Parent" xml:space="preserve">
-    <value>tabPage4</value>
-  </data>
-  <data name="&gt;&gt;materialButton4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;materialButton3.Name" xml:space="preserve">
-    <value>materialButton3</value>
-  </data>
-  <data name="&gt;&gt;materialButton3.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialButton3.Parent" xml:space="preserve">
-    <value>tabPage4</value>
-  </data>
-  <data name="&gt;&gt;materialButton3.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;chart1.Name" xml:space="preserve">
-    <value>chart1</value>
-  </data>
-  <data name="&gt;&gt;chart1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataVisualization.Charting.Chart, System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</value>
-  </data>
-  <data name="&gt;&gt;chart1.Parent" xml:space="preserve">
-    <value>tabPage4</value>
-  </data>
-  <data name="&gt;&gt;chart1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;materialLabel5.Name" xml:space="preserve">
-    <value>materialLabel5</value>
-  </data>
-  <data name="&gt;&gt;materialLabel5.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialLabel5.Parent" xml:space="preserve">
-    <value>tabPage4</value>
-  </data>
-  <data name="&gt;&gt;materialLabel5.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;materialLabel4.Name" xml:space="preserve">
-    <value>materialLabel4</value>
-  </data>
-  <data name="&gt;&gt;materialLabel4.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialLabel4.Parent" xml:space="preserve">
-    <value>tabPage4</value>
-  </data>
-  <data name="&gt;&gt;materialLabel4.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;materialLabel3.Name" xml:space="preserve">
-    <value>materialLabel3</value>
-  </data>
-  <data name="&gt;&gt;materialLabel3.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialLabel3.Parent" xml:space="preserve">
-    <value>tabPage4</value>
-  </data>
-  <data name="&gt;&gt;materialLabel3.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;materialLabel1.Name" xml:space="preserve">
-    <value>materialLabel1</value>
-  </data>
-  <data name="&gt;&gt;materialLabel1.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialLabel1.Parent" xml:space="preserve">
-    <value>tabPage4</value>
-  </data>
-  <data name="&gt;&gt;materialLabel1.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;materialLabel2.Name" xml:space="preserve">
-    <value>materialLabel2</value>
-  </data>
-  <data name="&gt;&gt;materialLabel2.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialLabel2.Parent" xml:space="preserve">
-    <value>tabPage4</value>
-  </data>
-  <data name="&gt;&gt;materialLabel2.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="tabPage4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Modern No. 20, 22.1999989pt, style=Bold, Italic</value>
-  </data>
-  <data name="tabPage4.ImageKey" xml:space="preserve">
-    <value>baseline_home_black_24dp.png</value>
-  </data>
-  <data name="tabPage4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 39</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="tabPage4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="tabPage4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1278, 504</value>
-  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="tabPage4.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="tabPage4.Text" xml:space="preserve">
-    <value>HOME</value>
-  </data>
-  <data name="&gt;&gt;tabPage4.Name" xml:space="preserve">
-    <value>tabPage4</value>
-  </data>
-  <data name="&gt;&gt;tabPage4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabPage4.Parent" xml:space="preserve">
-    <value>materialTabControl2</value>
-  </data>
-  <data name="&gt;&gt;tabPage4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="materialButton5.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="materialButton5.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
-  </data>
-  <metadata name="imageList2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <data name="imageList2.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
-        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
-        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABM
-        HAAAAk1TRnQBSQFMAgEBAwEAAVwBAQFcAQEBIAEAASABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAGA
-        AwABIAMAAQEBAAEgBgABQP8A/wD/AP8AvQABAQMIAQsDEwEaAx0BKQMjATMDJwE6AygBPQMoAT0DJgE4
-        AyEBMAMaASQDEAEVAwQBBgMAAQH/AMkAAwMBBAMfAS0DPQFpA1ABowNZAcwDUwHnAzsB8wM7AfMDWgHg
-        A1cBvwNLAZADNAFVAxIBGQMCAQP/AMEAAwsBDwMoAT0DSgGMA1cBvQNbAdoDUgHoA0AB8gMiAfkDCwH8
-        AwsB/AMwAfcDRgHvA1YB4wNaAdUDVQGxA0ABcQMgAS4oAAM5AWADVwG/A1cBvwNXAb8DVwG/A1cBvwNX
-        Ab8DQwF3AyEBMAMaASQDSwGPA1YBswNXAb8DVwG/A1cBvwNXAb8DUQGnAz4BawQAAy4BRwNLAY8DVwG/
-        A1cBvwNXAb8DVwG/A1cBvwNXAb8DIQEwoAADKgFAA0YBgANGAYADRgGAA0YBgANGAYADRgGAAxcBIBAA
-        AyoBQANGAYADRgGAA0YBgANGAYADRgGAA0YBgAMXASAvAAEBAxkBIwM4AV4DUgGoA1gB3AMuAfYDAAH/
-        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A0AB8gNYAcsDSwGQAy0BRQMNARIDAAEB
-        HAADRgGAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1ABnwMqAUADIQEwA1cBvwNGAe8DAAH/AwAB/wMA
-        Af8DAAH/A1cB3wNLAY8EAAM5AV8DVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AyoBQKAAA0YBgAMA
-        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMqAUAQAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DKgFA
-        LAADFAEcAzwBZgNXAb0DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DUQHpA1EBpwMtAUUDDQESHAADRgGAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        A1ABnwMqAUADIQEwA1cBvwNGAe8DAAH/AwAB/wMAAf8DAAH/A1cB3wNLAY8EAAM5AV8DVwG/AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DAAH/AyoBQKAAA0YBgAMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMqAUAQAANG
-        AYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DKgFALAADPAFoA1cBxQMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNRAacDLQFF
-        HAADRgGAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1ABnwMqAUADIQEwA1cBvwNGAe8DAAH/AwAB/wMA
-        Af8DAAH/A1cB3wNLAY8EAAM5AV8DVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AyoBQKAAA0YBgAMA
-        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMqAUAQAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DKgFA
-        JAADCwEPAygBPQNWAbkDQwHxAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1EB6QNLAY8DIAEuGAADRgGAAwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/A1ABnwMqAUADIQEwA1cBvwNGAe8DAAH/AwAB/wMAAf8DAAH/A1cB3wNLAY8EAAM5
-        AV8DVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AyoBQKAAA0YBgAMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMqAUAQAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DKgFAIAADAQECAxwBKANNAZYDVgHl
-        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DWAHAA0YBgANGAYADVwHfAwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AwAB/wMAAf8DWAHLA0EBcgMCAQMDAAEBEAADRgGAAwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/A1ABnwMqAUADIQEwA1cBvwNGAe8DAAH/AwAB/wMAAf8DAAH/A1cB3wNLAY8EAAM5AV8DVwG/
-        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AyoBQKAAA0YBgAMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMq
-        AUAQAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DKgFAIAADCgENAzABTANUAeQDJQH4AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DRgGACAADVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DQAHyA1UBsgMSARkDBAEGEAADRgGAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1ABnwMq
-        AUADIQEwA1cBvwNGAe8DAAH/AwAB/wMAAf8DAAH/A1cB3wNLAY8EAAM5AV8DVwG/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AyoBQKAAA0YBgAMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMqAUAQAANGAYADAAH/
-        AwAB/wMAAf8DAAH/AwAB/wMAAf8DKgFAIAADHgErA0YBgAMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DRgGACAADVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        A1oB1QM0AVUDEAEVEAADRgGAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1ABnwMqAUADIQEwA1cBvwNG
-        Ae8DAAH/AwAB/wMAAf8DAAH/A1cB3wNLAY8EAAM5AV8DVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AyoBQKAAA0YBgAMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMqAUAQAANGAYADAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DKgFAIAADLgFIA1MBrAMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DRgGACAADVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1YB4wNLAZADGgEk
-        EAADRgGAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1ABnwMqAUADIQEwA1cBvwNGAe8DAAH/AwAB/wMA
-        Af8DAAH/A1cB3wNLAY8EAAM5AV8DVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AyoBQKAAA0YBgAMA
-        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wNRAaADRgGAA0YBgANGAYADRgGAA1gBwAMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wMqAUAgAAM5AV8DWQHPAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wNGAYAIAANXAb8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DRgHvA1YBvgMh
-        ATAQAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DUAGfAyoBQAMhATADVwG/A0YB7wMAAf8DAAH/
-        AwAB/wMAAf8DVwHfA0sBjwQAAzkBXwNXAb8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DKgFAoAADRgGA
-        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AyoBQCAAAz8BbwNTAecDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/A0YBgAgAA1cBvwMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMwAfcDVwHf
-        AyYBOBAAA0YBgAMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNQAZ8DKgFAAyEBMANXAb8DRgHvAwAB/wMA
-        Af8DAAH/AwAB/wNXAd8DSwGPBAADOQFfA1cBvwMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMqAUCgAANG
-        AYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DKgFAIAADRAF5AzAB9QMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DRgGACAADVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwsB/ANA
-        AfIDKAE9EAADRgGAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1ABnwMqAUADIQEwA1cBvwNGAe8DAAH/
-        AwAB/wMAAf8DAAH/A1cB3wNLAY8EAAM5AV8DVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AyoBQJAA
-        Ax4BKwNAAXADVgG+A1cBvwNXAd8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DWQHPA1cBvwNQAaQDNQFWAxABFhAAA0QBeQMw
-        AfUDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A0YBgAgAA1cBvwMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMLAfwDQAHyAygBPRAAA0YBgAMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wNQAZ8DKgFAAyEBMANXAb8DRgHvAwAB/wMAAf8DAAH/AwAB/wNXAd8DSwGPBAADOQFf
-        A1cBvwMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMqAUCQAAMVAR0DNQFWA1MBrANSAegDAAH+AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwsB/QNcAdQDSwGPAyYBOQMLAQ8QAANBAXMDTQHsAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AwAB/wNYAcADRgGAA0YBgANXAd8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DIgH5A1YB5QMnAToQAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DUAGfAyoBQAMh
-        ATADVwG/A0YB7wMAAf8DAAH/AwAB/wMAAf8DVwHfA0sBjwQAAyEBMAM5AWADRgGAA0YBgANGAYADRgGA
-        A0YBgANGAYADFwEglAADDQERAywBRANTAaoDVAHkAwsB/QMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf4DCwH8A1oB2ANIAYgDIwEzGAADPAFm
-        A1oB2AMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A0AB8gNYAcsDIwEzEAADRgGAAwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DAAH/A1ABnwMqAUADIQEwA1cBvwNGAe8DAAH/AwAB/wMAAf8DAAH/A1cB3wNL
-        AY/EAAMjATQDTwGcAzAB9QMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AwAB/wMLAfwDQAHyA0ABcAMZASMcAAMzAVIDVgG7AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DUgHoA1ABpAMdASkQAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DUAGf
-        AyoBQAMhATADVwG/A0YB7wMAAf8DAAH/AwAB/wMAAf8DVwHfA0sBj8QAAwoBDQMnATsDSAGFA0gB7gMW
-        AfsDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DMAH3A1gBywM7
-        AWMDGwEmAwcBCRwAAyQBNQNLAY8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        A1EBoAMqAUADKgFAA1kBzwMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNbAdoDPQFp
-        AxMBGhAAAxcBIAMqAUADKgFAAyoBQAMqAUADKgFAAyoBQAMcASgDDAEQAyEBMANXAb8DRgHvAwAB/wMA
-        Af8DAAH/AwAB/wNXAd8DSwGPyAADCgENAyQBNQNIAYYDWgHTAy4B9gMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AwAB/wMAAf8DQAHyA1UBugM+AWsDEwEaAwUBByAAAxEBFwM4AV4DSwHtAxYB+wMA
-        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A0YBgAgAA1cBvwMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/Ay4B9gNWAb4DHwEtAwgBCzQAAyEBMANXAb8DRgHvAwAB/wMAAf8DAAH/AwAB/wNX
-        Ad8DSwGPzAADBQEHAxMBGgNIAYYDXAHOAy4B9gMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DCwH8
-        A0AB8gNWAbwDOgFiAw8BFCgAAwEBAgMhATEDVgG5A0gB7gMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/A1EBoAMqAUADKgFAA1kBzwMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1gB3ANK
-        AYwDAwEEAwABATQAAyEBMANXAb8DRgHvAwAB/wMAAf8DAAH/AwAB/wNXAd8DSwGP1AADDQERA0ABcQNY
-        AdkDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A0AB8gNZAcwDLAFEAwgBCzAAAw8BFAMyAVEDXAHU
-        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AwAB/wMAAf8DUgGoAygBPTwAAyEBMANXAb8DRgHvAwAB/wMAAf8DAAH/AwAB/wNX
-        Ad8DSwGP1AADAwEEAxgBIQM5AWADWAHLA0AB8gMAAf8DAAH/AwAB/wMAAf8DVQHmA1IBqAMoATwDDgET
-        AwIBAzAAAwQBBQMPARQDRwGDA1wB1AMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNXAb0DOAFeAwsBDzwAAyEBMANXAb8DRgHv
-        AwAB/wMAAf8DAAH/AwAB/wNXAd8DSwGP2AADAgEDAxUBHQM5AWADVQG1A1EB6QMAAf8DAAH/A1gB3QNO
-        AZkDLwFKAwQBBgMBAQI8AAMkATUDSAGGA1oB0wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNDAfEDWQHEAzwBZgMZASNAAAMhATADVwG/A0YB7wMA
-        Af8DAAH/AwAB/wMAAf8DVwHfA0sBj98AAQEDAwEEAzgBXQNUAa8DVwHiA1cB4gNNAZUDKgFAAwIBA0QA
-        AwEBAgMkATUDRwGCA1wB1ANIAe4DFgH7AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMlAfgDVgHlA1YBuQM8AWcDFAEbAwABAUAAAyEBMANXAb8DRgHvAwAB/wMAAf8DAAH/AwAB/wNX
-        Ad8DSwGP5wABAQMuAUcDSgGMA0oBjAMaASQDAAEBUAADDwEUAzIBUQNWAbkDSwHtAwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNUAeQDTQGWAygBPUwAAyEBMANXAb8DRgHvAwAB/wMA
-        Af8DAAH/AwAB/wNXAd8DSwGP6AADDQESAxkBIwMZASMDBwEJVAADBAEFAw8BFAMhATEDOAFdA0sBjwNV
-        AboDWAHZA0sB7QMuAfYDLgH2A1IB6ANZAc8DUwGsA0YBgAMwAUwDHAEoAwsBD0wAAwkBDAMhATADKAE8
-        AyoBQAMqAUADKgFAAyoBQAMmATgDGgEk/wBVAAMBAQIDEQEXAyQBNQMzAVIDPAFmA0IBdANEAXoDRAF6
-        A0ABcAM5AWADLgFIAx4BKwMKAQ0DAQEC/wD/AP8A/wD/ACkAAUIBTQE+BwABPgMAASgDAAGAAwABIAMA
-        AQEBAAEBBgABAhYAA/8BAAz/BAAM/wQABf8BgAEBBf8EAAX/AYABAQX/BAAE/wH+AgAB/wHAAQABCAED
-        BAAB/AEDAcABPwH4AgABHwHAAQABCAEDBAAB/AEDAcABPwH4AgABHwHAAQABCAEDBAAB/AEDAcABPwH4
-        AgABHwHAAQABCAEDBAAB/AEDAcABPwHgAgABDwHAAQABCAEDBAAB/AEDAcABPwHAAgABAwHAAQABCAED
-        BAAB/AEDAcABPwHAAQEBgAEDAcABAAEIAQMEAAH8AQMBwAE/AcABAQGAAQMBwAEAAQgBAwQAAfwBAwHA
-        AT8BwAEBAYABAwHAAQABCAEDBAAB/AIAAT8BwAEBAYABAwHAAQABCAEDBAAB/AIAAT8BwAEBAYABAwHA
-        AQABCAEDBAAB/AIAAT8BwAEBAYABAwHAAQABCAEDBAABwAIAAQMBwAEBAYABAwHAAQABCAEDBAABwAIA
-        AQMBwAIAAQMBwAEAAQgBAwQAAeACAAEPAcACAAEDAcABAAEPAf8EAAH4AgABHwHAAgABAwHAAQABDwH/
-        BAAB+AIAAR8BwAIAAQMBwAEAAQ8B/wQAAfwCAAE/AcABAQGAAQMB/wHgAQ8B/wQAAf4CAAH/AcACAAED
-        Af8B4AEPAf8EAAH/AYABAQH/AeACAAEPAf8B4AEPAf8EAAH/AYABAQH/AeACAAEPAf8B4AEPAf8EAAH/
-        AcABAwH/AfgCAAEfAf8B4AEPAf8EAAH/AeABDwH/AfgCAAEfAf8B4AEPAf8EAAH/AfgBHwH/Af4CAAL/
-        AeABDwH/BAAB/wH8AT8B/wH+AgAC/wHgAQ8B/wQABf8BgAEBBf8EAAz/BAAM/wQACw==
-</value>
-  </data>
-  <data name="materialButton5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="materialButton5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>46, 467</value>
-  </data>
-  <data name="materialButton5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 6, 4, 6</value>
-  </data>
-  <data name="materialButton5.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>1000, 1000</value>
-  </data>
-  <data name="materialButton5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>167, 36</value>
-  </data>
-  <data name="materialButton5.TabIndex" type="System.Int32, mscorlib">
-    <value>103</value>
-  </data>
-  <data name="materialButton5.Text" xml:space="preserve">
-    <value>View Graphics</value>
-  </data>
-  <data name="&gt;&gt;materialButton5.Name" xml:space="preserve">
-    <value>materialButton5</value>
-  </data>
-  <data name="&gt;&gt;materialButton5.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialButton5.Parent" xml:space="preserve">
-    <value>tabPage5</value>
-  </data>
-  <data name="&gt;&gt;materialButton5.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="materialLabel8.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="materialLabel8.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 34px, style=Bold</value>
-  </data>
-  <data name="materialLabel8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>126, 85</value>
-  </data>
-  <data name="materialLabel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 41</value>
-  </data>
-  <data name="materialLabel8.TabIndex" type="System.Int32, mscorlib">
-    <value>102</value>
-  </data>
-  <data name="materialLabel8.Text" xml:space="preserve">
-    <value>Add a task</value>
-  </data>
-  <data name="&gt;&gt;materialLabel8.Name" xml:space="preserve">
-    <value>materialLabel8</value>
-  </data>
-  <data name="&gt;&gt;materialLabel8.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialLabel8.Parent" xml:space="preserve">
-    <value>tabPage5</value>
-  </data>
-  <data name="&gt;&gt;materialLabel8.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="materialLabel6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="materialLabel6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 24px, style=Bold</value>
-  </data>
-  <data name="materialLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>772, 3</value>
-  </data>
-  <data name="materialLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 29</value>
-  </data>
-  <data name="materialLabel6.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="materialLabel6.Text" xml:space="preserve">
-    <value>Tasks to complete</value>
-  </data>
-  <data name="&gt;&gt;materialLabel6.Name" xml:space="preserve">
-    <value>materialLabel6</value>
-  </data>
-  <data name="&gt;&gt;materialLabel6.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialLabel6.Parent" xml:space="preserve">
-    <value>tabPage5</value>
-  </data>
-  <data name="&gt;&gt;materialLabel6.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="materialButton2.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
-  </data>
-  <data name="materialButton2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>895, 480</value>
-  </data>
-  <data name="materialButton2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 6, 4, 6</value>
-  </data>
-  <data name="materialButton2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 36</value>
-  </data>
-  <data name="materialButton2.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="materialButton2.Text" xml:space="preserve">
-    <value>Show Tasks</value>
-  </data>
-  <data name="&gt;&gt;materialButton2.Name" xml:space="preserve">
-    <value>materialButton2</value>
-  </data>
-  <data name="&gt;&gt;materialButton2.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialButton2.Parent" xml:space="preserve">
-    <value>tabPage5</value>
-  </data>
-  <data name="&gt;&gt;materialButton2.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="materialButton1.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="materialButton1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
-  </data>
-  <data name="materialButton1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>133, 245</value>
-  </data>
-  <data name="materialButton1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 6, 4, 6</value>
-  </data>
-  <data name="materialButton1.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>1000, 1000</value>
-  </data>
-  <data name="materialButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 49</value>
-  </data>
-  <data name="materialButton1.TabIndex" type="System.Int32, mscorlib">
-    <value>100</value>
-  </data>
-  <data name="materialButton1.Text" xml:space="preserve">
-    <value>ADD</value>
-  </data>
-  <data name="&gt;&gt;materialButton1.Name" xml:space="preserve">
-    <value>materialButton1</value>
-  </data>
-  <data name="&gt;&gt;materialButton1.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialButton1.Parent" xml:space="preserve">
-    <value>tabPage5</value>
-  </data>
-  <data name="&gt;&gt;materialButton1.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="materialTextBox2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 16px</value>
-  </data>
-  <data name="materialTextBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>33, 157</value>
-  </data>
-  <data name="materialTextBox2.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>1000, 1000</value>
-  </data>
-  <data name="materialTextBox2.MaxLength" type="System.Int32, mscorlib">
-    <value>50</value>
-  </data>
-  <data name="materialTextBox2.Multiline" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="materialTextBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>474, 50</value>
-  </data>
-  <data name="materialTextBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="materialTextBox2.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;materialTextBox2.Name" xml:space="preserve">
-    <value>materialTextBox2</value>
-  </data>
-  <data name="&gt;&gt;materialTextBox2.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialTextBox, MaterialSkin, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialTextBox2.Parent" xml:space="preserve">
-    <value>tabPage5</value>
-  </data>
-  <data name="&gt;&gt;materialTextBox2.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="checkedListBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="checkedListBox1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Perpetua Titling MT, 22.2pt, style=Bold</value>
-  </data>
-  <data name="checkedListBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>648, 49</value>
-  </data>
-  <data name="checkedListBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>588, 380</value>
-  </data>
-  <data name="checkedListBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;checkedListBox1.Name" xml:space="preserve">
-    <value>checkedListBox1</value>
-  </data>
-  <data name="&gt;&gt;checkedListBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkedListBox1.Parent" xml:space="preserve">
-    <value>tabPage5</value>
-  </data>
-  <data name="&gt;&gt;checkedListBox1.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="tabPage5.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Modern No. 20, 19.8pt, style=Bold, Italic</value>
-  </data>
-  <data name="tabPage5.ImageKey" xml:space="preserve">
-    <value>baseline_leaderboard_black_24dp.png</value>
-  </data>
-  <data name="tabPage5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 39</value>
-  </data>
-  <data name="tabPage5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="tabPage5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1278, 504</value>
-  </data>
-  <data name="tabPage5.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tabPage5.Text" xml:space="preserve">
-    <value>ADD TASK</value>
-  </data>
-  <data name="&gt;&gt;tabPage5.Name" xml:space="preserve">
-    <value>tabPage5</value>
-  </data>
-  <data name="&gt;&gt;tabPage5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabPage5.Parent" xml:space="preserve">
-    <value>materialTabControl2</value>
-  </data>
-  <data name="&gt;&gt;tabPage5.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tabPage6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Modern No. 20, 19.8pt, style=Bold, Italic</value>
-  </data>
-  <data name="tabPage6.ImageKey" xml:space="preserve">
-    <value>baseline_info_black_24dp.png</value>
-  </data>
-  <data name="tabPage6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 39</value>
-  </data>
-  <data name="tabPage6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1217, 514</value>
-  </data>
-  <data name="tabPage6.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="tabPage6.Text" xml:space="preserve">
-    <value>Info</value>
-  </data>
-  <data name="&gt;&gt;tabPage6.Name" xml:space="preserve">
-    <value>tabPage6</value>
-  </data>
-  <data name="&gt;&gt;tabPage6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabPage6.Parent" xml:space="preserve">
-    <value>materialTabControl2</value>
-  </data>
-  <data name="&gt;&gt;tabPage6.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="materialTabControl2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="materialTabControl2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 64</value>
-  </data>
-  <data name="materialTabControl2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1286, 547</value>
-  </data>
-  <data name="materialTabControl2.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;materialTabControl2.Name" xml:space="preserve">
-    <value>materialTabControl2</value>
-  </data>
-  <data name="&gt;&gt;materialTabControl2.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialTabControl, MaterialSkin, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialTabControl2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;materialTabControl2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="materialButton4.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="materialButton4.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="materialButton4.Location" type="System.Drawing.Point, System.Drawing">
     <value>942, 395</value>
   </data>
@@ -855,7 +280,7 @@
     <value>Roboto, 48px, style=Bold</value>
   </data>
   <data name="materialLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>487, 212</value>
+    <value>272, 200</value>
   </data>
   <data name="materialLabel3.Size" type="System.Drawing.Size, System.Drawing">
     <value>28, 58</value>
@@ -885,7 +310,7 @@
     <value>Roboto, 48px, style=Bold</value>
   </data>
   <data name="materialLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>487, 97</value>
+    <value>482, 97</value>
   </data>
   <data name="materialLabel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>28, 58</value>
@@ -921,13 +346,13 @@
     <value>6, 13</value>
   </data>
   <data name="materialLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 29</value>
+    <value>105, 29</value>
   </data>
   <data name="materialLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
   <data name="materialLabel2.Text" xml:space="preserve">
-    <value>materialLabel2</value>
+    <value>DataTime</value>
   </data>
   <data name="&gt;&gt;materialLabel2.Name" xml:space="preserve">
     <value>materialLabel2</value>
@@ -941,6 +366,605 @@
   <data name="&gt;&gt;materialLabel2.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <data name="tabPage4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Modern No. 20, 22.1999989pt, style=Bold, Italic</value>
+  </data>
+  <data name="tabPage4.ImageKey" xml:space="preserve">
+    <value>baseline_home_black_24dp.png</value>
+  </data>
+  <data name="tabPage4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 39</value>
+  </data>
+  <data name="tabPage4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1243, 473</value>
+  </data>
+  <data name="tabPage4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>HOME</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.Name" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.Parent" xml:space="preserve">
+    <value>materialTabControl2</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="materialButton5.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="materialButton5.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <metadata name="imageList2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="imageList2.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABM
+        HAAAAk1TRnQBSQFMAgEBAwEAAYwBAQGMAQEBIAEAASABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAGA
+        AwABIAMAAQEBAAEgBgABQP8A/wD/AP8AvQABAQMIAQsDEwEaAx0BKQMjATMDJwE6AygBPQMoAT0DJgE4
+        AyEBMAMaASQDEAEVAwQBBgMAAQH/AMkAAwMBBAMfAS0DPQFpA1ABowNZAcwDXAHnA0oB8wNKAfMDXwHg
+        A1cBvwNLAZADNAFVAxIBGQMCAQP/AMEAAwsBDwMoAT0DSgGMA1cBvQNeAdoDVwHoA0sB8gMoAfkDEQH8
+        AxEB/AM5AfcDTgHvA1gB4wNaAdUDVQGxA0ABcQMgAS4oAAM5AWADVwG/A1cBvwNXAb8DVwG/A1cBvwNX
+        Ab8DQwF3AyEBMAMaASQDSwGPA1YBswNXAb8DVwG/A1cBvwNXAb8DUQGnAz4BawQAAy4BRwNLAY8DVwG/
+        A1cBvwNXAb8DVwG/A1cBvwNXAb8DIQEwoAADKgFAA0YBgANGAYADRgGAA0YBgANGAYADRgGAAxcBIBAA
+        AyoBQANGAYADRgGAA0YBgANGAYADRgGAA0YBgAMXASAvAAEBAxkBIwM4AV4DUgGoA1wB3AM1AfYDAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A0sB8gNYAcsDSwGQAy0BRQMNARIDAAEB
+        HAADRgGAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1ABnwMqAUADIQEwA1cBvwNOAe8DAAH/AwAB/wMA
+        Af8DAAH/A1cB3wNLAY8EAAM5AV8DVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AyoBQKAAA0YBgAMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMqAUAQAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DKgFA
+        LAADFAEcAzwBZgNXAb0DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DWAHpA1EBpwMtAUUDDQESHAADRgGAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        A1ABnwMqAUADIQEwA1cBvwNOAe8DAAH/AwAB/wMAAf8DAAH/A1cB3wNLAY8EAAM5AV8DVwG/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AyoBQKAAA0YBgAMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMqAUAQAANG
+        AYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DKgFALAADPAFoA1cBxQMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNRAacDLQFF
+        HAADRgGAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1ABnwMqAUADIQEwA1cBvwNOAe8DAAH/AwAB/wMA
+        Af8DAAH/A1cB3wNLAY8EAAM5AV8DVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AyoBQKAAA0YBgAMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMqAUAQAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DKgFA
+        JAADCwEPAygBPQNWAbkDUQHxAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1gB6QNLAY8DIAEuGAADRgGAAwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/A1ABnwMqAUADIQEwA1cBvwNOAe8DAAH/AwAB/wMAAf8DAAH/A1cB3wNLAY8EAAM5
+        AV8DVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AyoBQKAAA0YBgAMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMqAUAQAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DKgFAIAADAQECAxwBKANNAZYDXgHl
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DWAHAA0YBgANGAYADVwHfAwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DWAHLA0EBcgMCAQMDAAEBEAADRgGAAwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/A1ABnwMqAUADIQEwA1cBvwNOAe8DAAH/AwAB/wMAAf8DAAH/A1cB3wNLAY8EAAM5AV8DVwG/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AyoBQKAAA0YBgAMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMq
+        AUAQAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DKgFAIAADCgENAzABTANaAeQDNwH4AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DRgGACAADVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DSwHyA1UBsgMSARkDBAEGEAADRgGAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1ABnwMq
+        AUADIQEwA1cBvwNOAe8DAAH/AwAB/wMAAf8DAAH/A1cB3wNLAY8EAAM5AV8DVwG/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AyoBQKAAA0YBgAMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMqAUAQAANGAYADAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DKgFAIAADHgErA0YBgAMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DRgGACAADVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        A1oB1QM0AVUDEAEVEAADRgGAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1ABnwMqAUADIQEwA1cBvwNO
+        Ae8DAAH/AwAB/wMAAf8DAAH/A1cB3wNLAY8EAAM5AV8DVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AyoBQKAAA0YBgAMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMqAUAQAANGAYADAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DKgFAIAADLgFIA1MBrAMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DRgGACAADVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1gB4wNLAZADGgEk
+        EAADRgGAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1ABnwMqAUADIQEwA1cBvwNOAe8DAAH/AwAB/wMA
+        Af8DAAH/A1cB3wNLAY8EAAM5AV8DVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AyoBQKAAA0YBgAMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wNRAaADRgGAA0YBgANGAYADRgGAA1gBwAMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMqAUAgAAM5AV8DWQHPAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wNGAYAIAANXAb8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DTgHvA1YBvgMh
+        ATAQAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DUAGfAyoBQAMhATADVwG/A04B7wMAAf8DAAH/
+        AwAB/wMAAf8DVwHfA0sBjwQAAzkBXwNXAb8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DKgFAoAADRgGA
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AyoBQCAAAz8BbwNcAecDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/A0YBgAgAA1cBvwMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wM5AfcDVwHf
+        AyYBOBAAA0YBgAMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNQAZ8DKgFAAyEBMANXAb8DTgHvAwAB/wMA
+        Af8DAAH/AwAB/wNXAd8DSwGPBAADOQFfA1cBvwMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMqAUCgAANG
+        AYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DKgFAIAADRAF5A0AB9QMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DRgGACAADVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AxEB/ANL
+        AfIDKAE9EAADRgGAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1ABnwMqAUADIQEwA1cBvwNOAe8DAAH/
+        AwAB/wMAAf8DAAH/A1cB3wNLAY8EAAM5AV8DVwG/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AyoBQJAA
+        Ax4BKwNAAXADVgG+A1cBvwNXAd8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DWQHPA1cBvwNQAaQDNQFWAxABFhAAA0QBeQNA
+        AfUDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A0YBgAgAA1cBvwMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMRAfwDSwHyAygBPRAAA0YBgAMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wNQAZ8DKgFAAyEBMANXAb8DTgHvAwAB/wMAAf8DAAH/AwAB/wNXAd8DSwGPBAADOQFf
+        A1cBvwMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMqAUCQAAMVAR0DNQFWA1MBrANXAegDAAH+AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AxEB/QNcAdQDSwGPAyYBOQMLAQ8QAANBAXMDWQHsAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wNYAcADRgGAA0YBgANXAd8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DKAH5A14B5QMnAToQAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DUAGfAyoBQAMh
+        ATADVwG/A04B7wMAAf8DAAH/AwAB/wMAAf8DVwHfA0sBjwQAAyEBMAM5AWADRgGAA0YBgANGAYADRgGA
+        A0YBgANGAYADFwEglAADDQERAywBRANTAaoDWgHkAxEB/QMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf4DEQH8A1oB2ANIAYgDIwEzGAADPAFm
+        A1oB2AMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A0sB8gNYAcsDIwEzEAADRgGAAwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/A1ABnwMqAUADIQEwA1cBvwNOAe8DAAH/AwAB/wMAAf8DAAH/A1cB3wNL
+        AY/EAAMjATQDTwGcA0AB9QMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMRAfwDSwHyA0ABcAMZASMcAAMzAVIDVgG7AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DVwHoA1ABpAMdASkQAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DUAGf
+        AyoBQAMhATADVwG/A04B7wMAAf8DAAH/AwAB/wMAAf8DVwHfA0sBj8QAAwoBDQMnATsDSAGFA1QB7gMh
+        AfsDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DOQH3A1gBywM7
+        AWMDGwEmAwcBCRwAAyQBNQNLAY8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        A1EBoAMqAUADKgFAA1kBzwMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNeAdoDPQFp
+        AxMBGhAAAxcBIAMqAUADKgFAAyoBQAMqAUADKgFAAyoBQAMcASgDDAEQAyEBMANXAb8DTgHvAwAB/wMA
+        Af8DAAH/AwAB/wNXAd8DSwGPyAADCgENAyQBNQNIAYYDWgHTAzUB9gMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DSwHyA1UBugM+AWsDEwEaAwUBByAAAxEBFwM4AV4DVAHtAyEB+wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A0YBgAgAA1cBvwMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AzUB9gNWAb4DHwEtAwgBCzQAAyEBMANXAb8DTgHvAwAB/wMAAf8DAAH/AwAB/wNX
+        Ad8DSwGPzAADBQEHAxMBGgNIAYYDXAHOAzUB9gMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DEQH8
+        A0sB8gNWAbwDOgFiAw8BFCgAAwEBAgMhATEDVgG5A1QB7gMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/A1EBoAMqAUADKgFAA1kBzwMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1wB3ANK
+        AYwDAwEEAwABATQAAyEBMANXAb8DTgHvAwAB/wMAAf8DAAH/AwAB/wNXAd8DSwGP1AADDQERA0ABcQNb
+        AdkDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A0sB8gNZAcwDLAFEAwgBCzAAAw8BFAMyAVEDXAHU
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DUgGoAygBPTwAAyEBMANXAb8DTgHvAwAB/wMAAf8DAAH/AwAB/wNX
+        Ad8DSwGP1AADAwEEAxgBIQM5AWADWAHLA0sB8gMAAf8DAAH/AwAB/wMAAf8DWAHmA1IBqAMoATwDDgET
+        AwIBAzAAAwQBBQMPARQDRwGDA1wB1AMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNXAb0DOAFeAwsBDzwAAyEBMANXAb8DTgHv
+        AwAB/wMAAf8DAAH/AwAB/wNXAd8DSwGP2AADAgEDAxUBHQM5AWADVQG1A1gB6QMAAf8DAAH/A1gB3QNO
+        AZkDLwFKAwQBBgMBAQI8AAMkATUDSAGGA1oB0wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNRAfEDWQHEAzwBZgMZASNAAAMhATADVwG/A04B7wMA
+        Af8DAAH/AwAB/wMAAf8DVwHfA0sBj98AAQEDAwEEAzgBXQNUAa8DXQHiA10B4gNNAZUDKgFAAwIBA0QA
+        AwEBAgMkATUDRwGCA1wB1ANUAe4DIQH7AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wM3AfgDXgHlA1YBuQM8AWcDFAEbAwABAUAAAyEBMANXAb8DTgHvAwAB/wMAAf8DAAH/AwAB/wNX
+        Ad8DSwGP5wABAQMuAUcDSgGMA0oBjAMaASQDAAEBUAADDwEUAzIBUQNWAbkDVAHtAwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNaAeQDTQGWAygBPUwAAyEBMANXAb8DTgHvAwAB/wMA
+        Af8DAAH/AwAB/wNXAd8DSwGP6AADDQESAxkBIwMZASMDBwEJVAADBAEFAw8BFAMhATEDOAFdA0sBjwNV
+        AboDWwHZA1QB7QM1AfYDNQH2A1cB6ANZAc8DUwGsA0YBgAMwAUwDHAEoAwsBD0wAAwkBDAMhATADKAE8
+        AyoBQAMqAUADKgFAAyoBQAMmATgDGgEk/wBVAAMBAQIDEQEXAyQBNQMzAVIDPAFmA0IBdANEAXoDRAF6
+        A0ABcAM5AWADLgFIAx4BKwMKAQ0DAQEC/wD/AP8A/wD/ACkAAUIBTQE+BwABPgMAASgDAAGAAwABIAMA
+        AQEBAAEBBgABAhYAA/8BAAz/BAAM/wQABf8BgAEBBf8EAAX/AYABAQX/BAAE/wH+AgAB/wHAAQABCAED
+        BAAB/AEDAcABPwH4AgABHwHAAQABCAEDBAAB/AEDAcABPwH4AgABHwHAAQABCAEDBAAB/AEDAcABPwH4
+        AgABHwHAAQABCAEDBAAB/AEDAcABPwHgAgABDwHAAQABCAEDBAAB/AEDAcABPwHAAgABAwHAAQABCAED
+        BAAB/AEDAcABPwHAAQEBgAEDAcABAAEIAQMEAAH8AQMBwAE/AcABAQGAAQMBwAEAAQgBAwQAAfwBAwHA
+        AT8BwAEBAYABAwHAAQABCAEDBAAB/AIAAT8BwAEBAYABAwHAAQABCAEDBAAB/AIAAT8BwAEBAYABAwHA
+        AQABCAEDBAAB/AIAAT8BwAEBAYABAwHAAQABCAEDBAABwAIAAQMBwAEBAYABAwHAAQABCAEDBAABwAIA
+        AQMBwAIAAQMBwAEAAQgBAwQAAeACAAEPAcACAAEDAcABAAEPAf8EAAH4AgABHwHAAgABAwHAAQABDwH/
+        BAAB+AIAAR8BwAIAAQMBwAEAAQ8B/wQAAfwCAAE/AcABAQGAAQMB/wHgAQ8B/wQAAf4CAAH/AcACAAED
+        Af8B4AEPAf8EAAH/AYABAQH/AeACAAEPAf8B4AEPAf8EAAH/AYABAQH/AeACAAEPAf8B4AEPAf8EAAH/
+        AcABAwH/AfgCAAEfAf8B4AEPAf8EAAH/AeABDwH/AfgCAAEfAf8B4AEPAf8EAAH/AfgBHwH/Af4CAAL/
+        AeABDwH/BAAB/wH8AT8B/wH+AgAC/wHgAQ8B/wQABf8BgAEBBf8EAAz/BAAM/wQACw==
+</value>
+  </data>
+  <data name="materialButton5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="materialButton5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 440</value>
+  </data>
+  <data name="materialButton5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="materialButton5.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 1000</value>
+  </data>
+  <data name="materialButton5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 36</value>
+  </data>
+  <data name="materialButton5.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="materialButton5.Text" xml:space="preserve">
+    <value>View Graphics</value>
+  </data>
+  <data name="&gt;&gt;materialButton5.Name" xml:space="preserve">
+    <value>materialButton5</value>
+  </data>
+  <data name="&gt;&gt;materialButton5.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialButton5.Parent" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="&gt;&gt;materialButton5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="materialLabel8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 34px, style=Bold</value>
+  </data>
+  <data name="materialLabel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 82</value>
+  </data>
+  <data name="materialLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 41</value>
+  </data>
+  <data name="materialLabel8.TabIndex" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
+  <data name="materialLabel8.Text" xml:space="preserve">
+    <value>Add a task</value>
+  </data>
+  <data name="&gt;&gt;materialLabel8.Name" xml:space="preserve">
+    <value>materialLabel8</value>
+  </data>
+  <data name="&gt;&gt;materialLabel8.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel8.Parent" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="&gt;&gt;materialLabel8.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="materialLabel6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 24px, style=Bold</value>
+  </data>
+  <data name="materialLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>788, 3</value>
+  </data>
+  <data name="materialLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 29</value>
+  </data>
+  <data name="materialLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="materialLabel6.Text" xml:space="preserve">
+    <value>Tasks to complete:</value>
+  </data>
+  <data name="&gt;&gt;materialLabel6.Name" xml:space="preserve">
+    <value>materialLabel6</value>
+  </data>
+  <data name="&gt;&gt;materialLabel6.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel6.Parent" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="&gt;&gt;materialLabel6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="materialButton2.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="materialButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>861, 430</value>
+  </data>
+  <data name="materialButton2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="materialButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 36</value>
+  </data>
+  <data name="materialButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="materialButton2.Text" xml:space="preserve">
+    <value>Show Tasks</value>
+  </data>
+  <data name="&gt;&gt;materialButton2.Name" xml:space="preserve">
+    <value>materialButton2</value>
+  </data>
+  <data name="&gt;&gt;materialButton2.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialButton2.Parent" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="&gt;&gt;materialButton2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="materialButton1.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="materialButton1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="materialButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 245</value>
+  </data>
+  <data name="materialButton1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="materialButton1.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 1000</value>
+  </data>
+  <data name="materialButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 36</value>
+  </data>
+  <data name="materialButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="materialButton1.Text" xml:space="preserve">
+    <value>ADD</value>
+  </data>
+  <data name="&gt;&gt;materialButton1.Name" xml:space="preserve">
+    <value>materialButton1</value>
+  </data>
+  <data name="&gt;&gt;materialButton1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialButton1.Parent" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="&gt;&gt;materialButton1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="materialTextBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 16px</value>
+  </data>
+  <data name="materialTextBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 157</value>
+  </data>
+  <data name="materialTextBox2.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 1000</value>
+  </data>
+  <data name="materialTextBox2.MaxLength" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="materialTextBox2.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="materialTextBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>474, 50</value>
+  </data>
+  <data name="materialTextBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="materialTextBox2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;materialTextBox2.Name" xml:space="preserve">
+    <value>materialTextBox2</value>
+  </data>
+  <data name="&gt;&gt;materialTextBox2.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox, MaterialSkin, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialTextBox2.Parent" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="&gt;&gt;materialTextBox2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="checkedListBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="checkedListBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Perpetua Titling MT, 22.2pt, style=Bold</value>
+  </data>
+  <data name="checkedListBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>648, 49</value>
+  </data>
+  <data name="checkedListBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>553, 333</value>
+  </data>
+  <data name="checkedListBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox1.Name" xml:space="preserve">
+    <value>checkedListBox1</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox1.Parent" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="&gt;&gt;checkedListBox1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tabPage5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Modern No. 20, 19.8pt, style=Bold, Italic</value>
+  </data>
+  <data name="tabPage5.ImageKey" xml:space="preserve">
+    <value>baseline_leaderboard_black_24dp.png</value>
+  </data>
+  <data name="tabPage5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 39</value>
+  </data>
+  <data name="tabPage5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1243, 473</value>
+  </data>
+  <data name="tabPage5.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>ADD TASK</value>
+  </data>
+  <data name="&gt;&gt;tabPage5.Name" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="&gt;&gt;tabPage5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage5.Parent" xml:space="preserve">
+    <value>materialTabControl2</value>
+  </data>
+  <data name="&gt;&gt;tabPage5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="materialLabel11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto Medium, 20px, style=Bold</value>
+  </data>
+  <data name="materialLabel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>635, 465</value>
+  </data>
+  <data name="materialLabel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>505, 24</value>
+  </data>
+  <data name="materialLabel11.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="materialLabel11.Text" xml:space="preserve">
+    <value>CREATED BY: Blagovest Damyanov and Martin Yordanov</value>
+  </data>
+  <data name="&gt;&gt;materialLabel11.Name" xml:space="preserve">
+    <value>materialLabel11</value>
+  </data>
+  <data name="&gt;&gt;materialLabel11.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel11.Parent" xml:space="preserve">
+    <value>tabPage6</value>
+  </data>
+  <data name="&gt;&gt;materialLabel11.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="materialLabel10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 34px, style=Bold</value>
+  </data>
+  <data name="materialLabel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 195</value>
+  </data>
+  <data name="materialLabel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>796, 41</value>
+  </data>
+  <data name="materialLabel10.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="materialLabel10.Text" xml:space="preserve">
+    <value>You can add tasks, as well as keep track of statistics</value>
+  </data>
+  <data name="&gt;&gt;materialLabel10.Name" xml:space="preserve">
+    <value>materialLabel10</value>
+  </data>
+  <data name="&gt;&gt;materialLabel10.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel10.Parent" xml:space="preserve">
+    <value>tabPage6</value>
+  </data>
+  <data name="&gt;&gt;materialLabel10.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="materialLabel9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 34px, style=Bold</value>
+  </data>
+  <data name="materialLabel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>272, 305</value>
+  </data>
+  <data name="materialLabel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>647, 41</value>
+  </data>
+  <data name="materialLabel9.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="materialLabel9.Text" xml:space="preserve">
+    <value>on how many of them you have completed.</value>
+  </data>
+  <data name="&gt;&gt;materialLabel9.Name" xml:space="preserve">
+    <value>materialLabel9</value>
+  </data>
+  <data name="&gt;&gt;materialLabel9.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel9.Parent" xml:space="preserve">
+    <value>tabPage6</value>
+  </data>
+  <data name="&gt;&gt;materialLabel9.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="materialLabel7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialLabel7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 34px, style=Bold</value>
+  </data>
+  <data name="materialLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 86</value>
+  </data>
+  <data name="materialLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>743, 41</value>
+  </data>
+  <data name="materialLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="materialLabel7.Text" xml:space="preserve">
+    <value>This application is designed to organize your day.</value>
+  </data>
+  <data name="&gt;&gt;materialLabel7.Name" xml:space="preserve">
+    <value>materialLabel7</value>
+  </data>
+  <data name="&gt;&gt;materialLabel7.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel7.Parent" xml:space="preserve">
+    <value>tabPage6</value>
+  </data>
+  <data name="&gt;&gt;materialLabel7.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabPage6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Modern No. 20, 19.8pt, style=Bold, Italic</value>
+  </data>
+  <data name="tabPage6.ImageKey" xml:space="preserve">
+    <value>baseline_info_black_24dp.png</value>
+  </data>
+  <data name="tabPage6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 39</value>
+  </data>
+  <data name="tabPage6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1243, 473</value>
+  </data>
+  <data name="tabPage6.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="&gt;&gt;tabPage6.Name" xml:space="preserve">
+    <value>tabPage6</value>
+  </data>
+  <data name="&gt;&gt;tabPage6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage6.Parent" xml:space="preserve">
+    <value>materialTabControl2</value>
+  </data>
+  <data name="&gt;&gt;tabPage6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="materialTabControl2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="materialTabControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 64</value>
+  </data>
+  <data name="materialTabControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1251, 516</value>
+  </data>
+  <data name="materialTabControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;materialTabControl2.Name" xml:space="preserve">
+    <value>materialTabControl2</value>
+  </data>
+  <data name="&gt;&gt;materialTabControl2.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTabControl, MaterialSkin, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialTabControl2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;materialTabControl2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="errorProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>147, 17</value>
   </metadata>
@@ -948,7 +972,7 @@
     <value>True</value>
   </metadata>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1292, 614</value>
+    <value>1257, 583</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

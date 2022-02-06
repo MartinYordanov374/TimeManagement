@@ -25,7 +25,6 @@ namespace MaterialDesign
         SQLiteConnection conn = new SQLiteConnection(@"Data Source=.\backend\progressDatabase.db");
         int count;
         int temp = 0;
-        int result = 0;
         readonly MaterialSkin.MaterialSkinManager materialSkinManager;
 
         public Form1()
@@ -314,6 +313,25 @@ namespace MaterialDesign
 
             conn.Close();
 
+        }
+
+        private void tabPage6_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+      
+
+        private void materialLabel7_Click(object sender, EventArgs e)
+        {
+            materialLabel7.Text = "Programming is my favorite hobby and hopefully a future profession. " +
+                "I like .NET, JS and backend programming.";
+            
         }
     }
 }
